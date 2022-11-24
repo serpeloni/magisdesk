@@ -588,7 +588,8 @@ ViewTicketScreen As screen:
                 PressedColor: =ViewTicketScreenAssignedToLabel.Color
                 PressedFill: =ViewTicketScreenAssignedToLabel.Fill
                 Size: =14
-                Text: ="ASSIGNED TO"
+                Text: |-
+                    ="ATRIBUIDO PARA:"
                 Width: =160
                 X: =14
                 Y: =858
@@ -632,7 +633,7 @@ ViewTicketScreen As screen:
                 PressedColor: =ViewTicketScreenCategoryTextLabel.Color
                 PressedFill: =ViewTicketScreenCategoryTextLabel.Fill
                 Size: =14
-                Text: ="DESCRIPTION"
+                Text: ="DESCRIÇÃO"
                 Width: =200
                 X: =17
                 Y: =988
