@@ -67,7 +67,7 @@ LoginScreen As screen:
         RadiusTopLeft: =44.5
         RadiusTopRight: =44.5
         Size: =18
-        Text: ="Login as a Help Desk Admin"
+        Text: ="Conectar como Admin de Help Desk"
         Width: =485
         X: =77
         Y: =684
