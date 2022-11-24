@@ -1634,6 +1634,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.NewTicketID"
                 }
               ],
