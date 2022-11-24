@@ -18,7 +18,7 @@
         PressedColor: =CollectionAndVariablesTitle.Color
         PressedFill: =CollectionAndVariablesTitle.Fill
         Size: =16
-        Text: ="Collections & Variables"
+        Text: ="Coleções & Variáveis"
         Width: =640
         ZIndex: =1
 
@@ -35,7 +35,7 @@
         PressedColor: =CollectionAndVariablesCollectionTitle.Color
         PressedFill: =CollectionAndVariablesCollectionTitle.Fill
         Size: =12
-        Text: ="Collections"
+        Text: ="Coleções"
         Width: =640
         Y: =40
         ZIndex: =2
@@ -70,7 +70,7 @@
         PressedColor: =CollectionAndVariablesVariablesTitle.Color
         PressedFill: =CollectionAndVariablesVariablesTitle.Fill
         Size: =12
-        Text: ="Variables"
+        Text: ="Variáveis"
         Width: =640
         Y: =237
         ZIndex: =4
