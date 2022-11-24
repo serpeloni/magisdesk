@@ -324,8 +324,8 @@ ViewTicketScreen As screen:
                 PressedFill: =ViewTicketScreenModifiedLabel.Fill
                 Size: =13.5
                 Text: |-
-                    ="MODIFIED:"
-                Width: =100
+                    ="MODIFICADO:"
+                Width: =172
                 X: =45
                 Y: =371
                 ZIndex: =14
@@ -333,7 +333,7 @@ ViewTicketScreen As screen:
             ViewTicketScreenModifiedByLabel As label:
                 Color: =RGBA(255, 255, 255, 1)
                 FocusedBorderColor: =ViewTicketScreenModifiedByLabel.BorderColor
-                Height: =15
+                Height: =22
                 HoverBorderColor: =ViewTicketScreenModifiedByLabel.BorderColor
                 HoverColor: =ViewTicketScreenModifiedByLabel.Color
                 HoverFill: =ViewTicketScreenModifiedByLabel.Fill
@@ -346,10 +346,10 @@ ViewTicketScreen As screen:
                 PressedFill: =ViewTicketScreenModifiedByLabel.Fill
                 Size: =13.5
                 Text: |-
-                    ="MODIFIED BY:"
-                Width: =123
+                    ="MODIFICADO POR:"
+                Width: =211
                 X: =45
-                Y: =401
+                Y: =394
                 ZIndex: =15
 
             ViewTicketScreenCreated As label:
@@ -439,8 +439,8 @@ ViewTicketScreen As screen:
                     =Coalesce(First(Office365Users.SearchUser({searchTerm:Text(SelectedTicket.Editor)})).DisplayName, SelectedTicket.Editor)
                 VerticalAlign: =VerticalAlign.Top
                 Width: =390
-                X: =170
-                Y: =394
+                X: =217
+                Y: =390
                 ZIndex: =19
 
             ViewTicketScreenPriorityBackground As rectangle:
