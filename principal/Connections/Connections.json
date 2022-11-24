@@ -1,0 +1,79 @@
+{
+  "81d6b9bf-1cff-4187-b95e-1894c2ebac70": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1599/1.0.1599.3017/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "afa09e14-9674-4edb-8604-9f11bed3561f"
+    ],
+    "id": "81d6b9bf-1cff-4187-b95e-1894c2ebac70"
+  },
+  "afa09e14-9674-4edb-8604-9f11bed3561f": {
+    "connectionParameters": {
+      "workFlowCallbackUri": "https://prod-116.westus.logic.azure.com:443/workflows/5ba0e409cd82487c8af10bbfa856ed54/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=bEqQZLM6gVkLUyqwkBWA6zm--uJTHgU1eQAUWqXb7ko",
+      "workflowEndpoint": "/subscriptions/9c6ca5c2-db3d-463a-9041-8fae10884f22/resourceGroups/b4741a826b6e43a5ad6e1044511aaed6-d3370e7058954e31bb8be6f9d9149c52/providers/Microsoft.Logic/workflows/fd8499db-df9c-4af0-b47b-2439df5f2c82",
+      "workflowName": "fd8499db-df9c-4af0-b47b-2439df5f2c82",
+      "workflowPath": "/subscriptions/9c6ca5c2-db3d-463a-9041-8fae10884f22/resourceGroups/b4741a826b6e43a5ad6e1044511aaed6-d3370e7058954e31bb8be6f9d9149c52/providers/Microsoft.Logic/workflows/fd8499db-df9c-4af0-b47b-2439df5f2c82"
+    },
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1534/1.0.1534.2605/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "81d6b9bf-1cff-4187-b95e-1894c2ebac70": {
+          "value": "shared_office365"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fd8499db-df9c-4af0-b47b-2439df5f2c82"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_office365": {
+          "value": "81d6b9bf-1cff-4187-b95e-1894c2ebac70"
+        },
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "fd8499db-df9c-4af0-b47b-2439df5f2c82"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "Sendemail"
+    ],
+    "dependencies": {
+      "shared_office365": "81d6b9bf-1cff-4187-b95e-1894c2ebac70"
+    },
+    "dependents": [],
+    "id": "afa09e14-9674-4edb-8604-9f11bed3561f"
+  },
+  "ff18bc1f-8075-4e48-b5f1-63a22b275810": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Usuários do Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1593/1.0.1593.2980/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "ff18bc1f-8075-4e48-b5f1-63a22b275810"
+  }
+}

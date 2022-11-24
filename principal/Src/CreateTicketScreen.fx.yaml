@@ -1,0 +1,487 @@
+CreateTicketScreen As screen:
+    BackgroundImage: =
+    Fill: =RGBA(250,250,250,1)
+    Height: =Max(App.Height, App.DesignHeight)
+    ImagePosition: =ImagePosition.Fill
+    OnVisible: =Set(NewTicketID,Concatenate("AH", Text(Now(),"[$-en-US]yyyymmddhhmmss")))
+    Width: =Max(App.Width, App.DesignWidth)
+
+    CreateTicketScreenBack As icon.ChevronLeft:
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledFill: =CreateTicketScreenBack.Fill
+        FocusedBorderColor: =CreateTicketScreenBack.BorderColor
+        FocusedBorderThickness: =0
+        Height: =74
+        HoverBorderColor: =ColorFade(CreateTicketScreenBack.BorderColor, 20%)
+        HoverColor: =ColorFade(CreateTicketScreenBack.Color, 20%)
+        HoverFill: =CreateTicketScreenBack.Fill
+        Icon: =Icon.ChevronLeft
+        OnSelect: |-
+            =Reset(CreateTicketScreenTitleText);
+                Reset(CreateTicketScreenTaskDescription);
+                Reset(CreateTicketScreenCategoryDropDown);
+                Reset(CreateTicketScreenPriorityDropDown);
+                Back()
+        PressedBorderColor: =ColorFade(CreateTicketScreenBack.BorderColor, -20%)
+        PressedColor: =ColorFade(CreateTicketScreenBack.Color, -20%)
+        PressedFill: =CreateTicketScreenBack.Fill
+        Width: =45
+        X: =7
+        Y: =10
+        ZIndex: =3
+
+    CreateTicketScreenTicketIDText As label:
+        Color: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenTicketIDText.BorderColor
+        FontWeight: =Normal
+        Height: =19
+        HoverBorderColor: =CreateTicketScreenTicketIDText.BorderColor
+        HoverColor: =CreateTicketScreenTicketIDText.Color
+        HoverFill: =CreateTicketScreenTicketIDText.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenTicketIDText.BorderColor
+        PressedColor: =CreateTicketScreenTicketIDText.Color
+        PressedFill: =CreateTicketScreenTicketIDText.Fill
+        Size: =13.5
+        Text: |-
+            ="TICKET ID:"
+        Width: =90
+        X: =14
+        Y: =132
+        ZIndex: =4
+
+    CreateTicketScreenTitleHeader As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =4
+
+        CreateTicketScreenTitleBackground As rectangle:
+            DisabledFill: =CreateTicketScreenTitleBackground.Fill
+            Fill: =RGBA(158, 11, 15, 1)
+            FocusedBorderColor: =CreateTicketScreenTitleBackground.BorderColor
+            Height: =97
+            HoverFill: =CreateTicketScreenTitleBackground.Fill
+            PressedFill: =CreateTicketScreenTitleBackground.Fill
+            Width: =640
+            ZIndex: =1
+
+        CreateTicketScreenTitle As label:
+            Color: =RGBA(221, 221, 221, 1)
+            FocusedBorderColor: =CreateTicketScreenTitle.BorderColor
+            Height: =29
+            HoverBorderColor: =CreateTicketScreenTitle.BorderColor
+            HoverColor: =CreateTicketScreenTitle.Color
+            HoverFill: =CreateTicketScreenTitle.Fill
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            PressedBorderColor: =CreateTicketScreenTitle.BorderColor
+            PressedColor: =CreateTicketScreenTitle.Color
+            PressedFill: =CreateTicketScreenTitle.Fill
+            Size: =27
+            Text: ="Create Ticket"
+            Width: =220
+            X: =226
+            Y: =30
+            ZIndex: =2
+
+    CreateTicketScreenTicketID As label:
+        Color: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenTicketID.BorderColor
+        FontWeight: =Semibold
+        Height: =23
+        HoverBorderColor: =CreateTicketScreenTicketID.BorderColor
+        HoverColor: =CreateTicketScreenTicketID.Color
+        HoverFill: =CreateTicketScreenTicketID.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenTicketID.BorderColor
+        PressedColor: =CreateTicketScreenTicketID.Color
+        PressedFill: =CreateTicketScreenTicketID.Fill
+        Size: =18
+        Text: =NumberOfTickets + 1
+        Width: =523
+        X: =107
+        Y: =128
+        ZIndex: =5
+
+    CreateTicketScreenStatusLabel As label:
+        Color: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenStatusLabel.BorderColor
+        FontWeight: =Normal
+        Height: =18
+        HoverBorderColor: =CreateTicketScreenStatusLabel.BorderColor
+        HoverColor: =CreateTicketScreenStatusLabel.Color
+        HoverFill: =CreateTicketScreenStatusLabel.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenStatusLabel.BorderColor
+        PressedColor: =CreateTicketScreenStatusLabel.Color
+        PressedFill: =CreateTicketScreenStatusLabel.Fill
+        Size: =13.5
+        Text: |-
+            ="STATUS:"
+        Width: =73
+        X: =15
+        Y: =182
+        ZIndex: =6
+
+    CreateTicketScreenSeparator As rectangle:
+        DisabledFill: =CreateTicketScreenSeparator.Fill
+        Fill: =RGBA(184, 184, 184, 1)
+        FocusedBorderColor: =CreateTicketScreenSeparator.BorderColor
+        Height: =1
+        HoverFill: =CreateTicketScreenSeparator.Fill
+        OnSelect: =
+        PressedFill: =CreateTicketScreenSeparator.Fill
+        Width: =610
+        X: =15
+        Y: =235
+        ZIndex: =8
+
+    CreateTicketScreenStatus As label:
+        Color: =RGBA(254, 46, 52, 1)
+        FocusedBorderColor: =CreateTicketScreenStatus.BorderColor
+        FontWeight: =Semibold
+        Height: =19
+        HoverBorderColor: =CreateTicketScreenStatus.BorderColor
+        HoverColor: =CreateTicketScreenStatus.Color
+        HoverFill: =CreateTicketScreenStatus.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenStatus.BorderColor
+        PressedColor: =CreateTicketScreenStatus.Color
+        PressedFill: =CreateTicketScreenStatus.Fill
+        Size: =18
+        Text: ="NOT STARTED"
+        Width: =196
+        X: =90
+        Y: =180
+        ZIndex: =9
+
+    CreateTicketScreenTitleLabel As label:
+        Color: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenTitleLabel.BorderColor
+        FontWeight: =Normal
+        Height: =18
+        HoverBorderColor: =CreateTicketScreenTitleLabel.BorderColor
+        HoverColor: =CreateTicketScreenTitleLabel.Color
+        HoverFill: =CreateTicketScreenTitleLabel.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenTitleLabel.BorderColor
+        PressedColor: =CreateTicketScreenTitleLabel.Color
+        PressedFill: =CreateTicketScreenTitleLabel.Fill
+        Size: =13.5
+        Text: ="TITLE"
+        Width: =73
+        X: =15
+        Y: =276
+        ZIndex: =10
+
+    CreateTicketScreenTitleStar As label:
+        Color: =RGBA(158, 11, 15, 1)
+        FocusedBorderColor: =CreateTicketScreenTitleStar.BorderColor
+        FontWeight: =Normal
+        Height: =18
+        HoverBorderColor: =CreateTicketScreenTitleStar.BorderColor
+        HoverColor: =CreateTicketScreenTitleStar.Color
+        HoverFill: =CreateTicketScreenTitleStar.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenTitleStar.BorderColor
+        PressedColor: =CreateTicketScreenTitleStar.Color
+        PressedFill: =CreateTicketScreenTitleStar.Fill
+        Size: =13.5
+        Text: ="*"
+        Width: =73
+        X: =60
+        Y: =276
+        ZIndex: =11
+
+    CreateTicketScreenTitleText As text:
+        BorderColor: =RGBA(235, 235, 235, 1)
+        BorderThickness: =1
+        Default: =
+        FocusedBorderColor: =CreateTicketScreenTitleText.BorderColor
+        Height: =60
+        HoverBorderColor: =RGBA(235, 235, 235, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        PressedBorderColor: =CreateTicketScreenTitleText.HoverBorderColor
+        PressedColor: =CreateTicketScreenTitleText.Color
+        PressedFill: =CreateTicketScreenTitleText.Fill
+        Size: =18
+        Width: =611
+        X: =15
+        Y: =307
+        ZIndex: =12
+
+    CreateTicketScreenCategoryLabel As label:
+        Color: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenCategoryLabel.BorderColor
+        FontWeight: =Normal
+        Height: =15
+        HoverBorderColor: =CreateTicketScreenCategoryLabel.BorderColor
+        HoverColor: =CreateTicketScreenCategoryLabel.Color
+        HoverFill: =CreateTicketScreenCategoryLabel.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenCategoryLabel.BorderColor
+        PressedColor: =CreateTicketScreenCategoryLabel.Color
+        PressedFill: =CreateTicketScreenCategoryLabel.Fill
+        Size: =13.5
+        Text: ="CATEGORY"
+        Width: =100
+        X: =16
+        Y: =407
+        ZIndex: =13
+
+    CreateTicketScreenCategoryDropDownStar As label:
+        Color: =RGBA(158, 11, 15, 1)
+        FocusedBorderColor: =CreateTicketScreenCategoryDropDownStar.BorderColor
+        FontWeight: =Normal
+        Height: =18
+        HoverBorderColor: =CreateTicketScreenCategoryDropDownStar.BorderColor
+        HoverColor: =CreateTicketScreenCategoryDropDownStar.Color
+        HoverFill: =CreateTicketScreenCategoryDropDownStar.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenCategoryDropDownStar.BorderColor
+        PressedColor: =CreateTicketScreenCategoryDropDownStar.Color
+        PressedFill: =CreateTicketScreenCategoryDropDownStar.Fill
+        Size: =13.5
+        Text: ="*"
+        Width: =73
+        X: =107
+        Y: =404
+        ZIndex: =14
+
+    CreateTicketScreenCategoryDropDown As dropdown:
+        BorderThickness: =0
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronFill: =RGBA(74, 74, 74, 1)
+        ChevronHoverBackground: =RGBA(255, 255, 255, 1)
+        ChevronHoverFill: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenCategoryDropDown.BorderColor
+        FocusedBorderThickness: =0
+        Height: =60
+        HoverBorderColor: =
+        HoverFill: =RGBA(179, 179, 179, 1)
+        Items: =TaskCategories
+        PressedBorderColor: =CreateTicketScreenCategoryDropDown.HoverBorderColor
+        PressedFill: =RGBA(179, 179, 179, 1)
+        SelectionFill: =RGBA(230, 230, 230, 1)
+        Size: =18
+        Width: =611
+        X: =15
+        Y: =438
+        ZIndex: =15
+
+    CreateTicketScreenPriorityLabel As label:
+        Color: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenPriorityLabel.BorderColor
+        FontWeight: =Normal
+        Height: =15
+        HoverBorderColor: =CreateTicketScreenPriorityLabel.BorderColor
+        HoverColor: =CreateTicketScreenPriorityLabel.Color
+        HoverFill: =CreateTicketScreenPriorityLabel.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenPriorityLabel.BorderColor
+        PressedColor: =CreateTicketScreenPriorityLabel.Color
+        PressedFill: =CreateTicketScreenPriorityLabel.Fill
+        Size: =13.5
+        Text: ="PRIORITY"
+        Width: =83
+        X: =17
+        Y: =537
+        ZIndex: =16
+
+    CreateTicketScreenDescriptionLabel As label:
+        Color: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenDescriptionLabel.BorderColor
+        FontWeight: =Normal
+        Height: =15
+        HoverBorderColor: =CreateTicketScreenDescriptionLabel.BorderColor
+        HoverColor: =CreateTicketScreenDescriptionLabel.Color
+        HoverFill: =CreateTicketScreenDescriptionLabel.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenDescriptionLabel.BorderColor
+        PressedColor: =CreateTicketScreenDescriptionLabel.Color
+        PressedFill: =CreateTicketScreenDescriptionLabel.Fill
+        Size: =13.5
+        Text: ="DESCRIPTION"
+        Width: =122
+        X: =16
+        Y: =668
+        ZIndex: =20
+
+    CreateTicketScreenDescriptionStar As label:
+        Color: =RGBA(158, 11, 15, 1)
+        FocusedBorderColor: =CreateTicketScreenDescriptionStar.BorderColor
+        FontWeight: =Normal
+        Height: =18
+        HoverBorderColor: =CreateTicketScreenDescriptionStar.BorderColor
+        HoverColor: =CreateTicketScreenDescriptionStar.Color
+        HoverFill: =CreateTicketScreenDescriptionStar.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenDescriptionStar.BorderColor
+        PressedColor: =CreateTicketScreenDescriptionStar.Color
+        PressedFill: =CreateTicketScreenDescriptionStar.Fill
+        Size: =13.5
+        Text: ="*"
+        Width: =73
+        X: =130
+        Y: =666
+        ZIndex: =21
+
+    CreateTicketScreenTaskDescription As text:
+        BorderColor: =RGBA(235, 235, 235, 1)
+        Color: =RGBA(74, 74, 74, 1)
+        Default: =""
+        FocusedBorderColor: =CreateTicketScreenTaskDescription.BorderColor
+        Height: =205
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.MultiLine
+        PressedBorderColor: =CreateTicketScreenTaskDescription.HoverBorderColor
+        PressedColor: =CreateTicketScreenTaskDescription.Color
+        PressedFill: =CreateTicketScreenTaskDescription.Fill
+        Size: =18
+        Width: =612
+        X: =14
+        Y: =699
+        ZIndex: =22
+
+    CreateTicketScreenCancel As button:
+        BorderColor: =RGBA(158, 11, 15, 1)
+        Color: =RGBA(158, 11, 15, 1)
+        DisabledBorderColor: =ColorFade(CreateTicketScreenCancel.BorderColor, 70%)
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =CreateTicketScreenCancel.BorderColor
+        FontWeight: =Semibold
+        Height: =54
+        HoverBorderColor: =ColorFade(CreateTicketScreenCancel.BorderColor, 20%)
+        HoverColor: =CreateTicketScreenCancel.Color
+        HoverFill: =ColorFade(CreateTicketScreenCancel.Fill, 20%)
+        OnSelect: |-
+            =Reset(CreateTicketScreenTitleText);
+            Reset(CreateTicketScreenTaskDescription);
+            Reset(CreateTicketScreenCategoryDropDown);
+            Reset(CreateTicketScreenPriorityDropDown);
+            Navigate(MyTicketsScreen,None)
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenCancel.Fill
+        PressedColor: =CreateTicketScreenCancel.Fill
+        PressedFill: =CreateTicketScreenCancel.Color
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13.5
+        Text: ="CANCEL"
+        Width: =130
+        X: =165
+        Y: =954
+        ZIndex: =23
+
+    CreateTicketScreenCreateButton As button:
+        BorderColor: =RGBA(158, 11, 15, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledBorderColor: =ColorFade(CreateTicketScreenCreateButton.BorderColor, 70%)
+        DisplayMode: =If(IsBlank(CreateTicketScreenTitleText.Text) || IsBlank(CreateTicketScreenTaskDescription.Text), DisplayMode.Disabled, DisplayMode.Edit)
+        Fill: =RGBA(158, 11, 15, 1)
+        FocusedBorderColor: =CreateTicketScreenCreateButton.BorderColor
+        FontWeight: =Semibold
+        Height: =54
+        HoverBorderColor: =ColorFade(CreateTicketScreenCreateButton.BorderColor, 20%)
+        HoverColor: =CreateTicketScreenCreateButton.Color
+        HoverFill: =ColorFade(CreateTicketScreenCreateButton.Fill, 20%)
+        OnSelect: |-
+            =Set(NumberOfTickets,NumberOfTickets + 1);
+            Patch(TicketList,Defaults(TicketList),{Id:NumberOfTickets,
+                Title:CreateTicketScreenTitleText.Text,
+                Priority: CreateTicketScreenPriorityDropDown.SelectedText.Value,
+                Author:MyProfile.Mail,
+                TaskStatus:"NOT STARTED",
+                PercentComplete: "0",
+                Created:Now(),
+                AssignedTO:"",
+                Description:CreateTicketScreenTaskDescription.Text,
+                Editor:MyProfile.Mail,
+                Modified:Now(),
+                Category:CreateTicketScreenCategoryDropDown.SelectedText.Value  });
+                Reset(CreateTicketScreenTitleText);
+                Reset(CreateTicketScreenTaskDescription);
+                Reset(CreateTicketScreenCategoryDropDown);
+                Reset(CreateTicketScreenPriorityDropDown);
+                Navigate(ConfirmSubmitScreen,None)
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =CreateTicketScreenCreateButton.Fill
+        PressedColor: =CreateTicketScreenCreateButton.Fill
+        PressedFill: =CreateTicketScreenCreateButton.Color
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =13.5
+        Text: ="CREATE"
+        Width: =130
+        X: =345
+        Y: =954
+        ZIndex: =24
+
+    CreateTicketScreenPriorityDropDown As dropdown:
+        BorderThickness: =0
+        ChevronBackground: =RGBA(255, 255, 255, 1)
+        ChevronFill: =RGBA(74, 74, 74, 1)
+        ChevronHoverBackground: =RGBA(255, 255, 255, 1)
+        ChevronHoverFill: =RGBA(74, 74, 74, 1)
+        FocusedBorderColor: =CreateTicketScreenPriorityDropDown.BorderColor
+        FocusedBorderThickness: =0
+        Height: =60
+        HoverBorderColor: =
+        HoverFill: =RGBA(179, 179, 179, 1)
+        Items: =TaskPriority
+        PressedBorderColor: =CreateTicketScreenPriorityDropDown.HoverBorderColor
+        PressedFill: =RGBA(179, 179, 179, 1)
+        SelectionFill: =RGBA(230, 230, 230, 1)
+        Size: =18
+        Width: =611
+        X: =15
+        Y: =568
+        ZIndex: =25
+

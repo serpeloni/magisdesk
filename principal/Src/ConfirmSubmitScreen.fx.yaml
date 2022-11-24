@@ -1,0 +1,77 @@
+ConfirmSubmitScreen As screen:
+    Fill: =RGBA(250, 250, 250, 1)
+    Height: =Max(App.Height, App.DesignHeight)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    Label1 As label:
+        FocusedBorderColor: =Label1.BorderColor
+        Height: =1136
+        HoverBorderColor: =Label1.BorderColor
+        HoverColor: =Label1.Color
+        HoverFill: =Label1.Fill
+        OnSelect: =Navigate(MyTicketsScreen,None)
+        PressedBorderColor: =Label1.BorderColor
+        PressedColor: =Label1.Color
+        PressedFill: =Label1.Fill
+        Size: =21
+        Text: =""
+        Width: =640
+        ZIndex: =1
+
+    ConfirmSubmitScreenText As label:
+        FocusedBorderColor: =ConfirmSubmitScreenText.BorderColor
+        Height: =76
+        HoverBorderColor: =ConfirmSubmitScreenText.BorderColor
+        HoverColor: =ConfirmSubmitScreenText.Color
+        HoverFill: =ConfirmSubmitScreenText.Fill
+        OnSelect: =Navigate(MyTicketsScreen,None)
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =ConfirmSubmitScreenText.BorderColor
+        PressedColor: =ConfirmSubmitScreenText.Color
+        PressedFill: =ConfirmSubmitScreenText.Fill
+        Size: =27
+        Text: |-
+            ="Your help desk ticket 
+            has been submitted."
+        Width: =370
+        X: =145
+        Y: =630
+        ZIndex: =2
+
+    ConfirmSubmitScreenCircle As circle:
+        BorderColor: =RGBA(158, 11, 15, 1)
+        BorderThickness: =5
+        DisabledFill: =ConfirmSubmitScreenCircle.Fill
+        Fill: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =ConfirmSubmitScreenCircle.BorderColor
+        FocusedBorderThickness: =5
+        Height: =122
+        HoverFill: =ConfirmSubmitScreenCircle.Fill
+        OnSelect: =Navigate(MyTicketsScreen,None)
+        PressedFill: =ConfirmSubmitScreenCircle.Fill
+        Width: =122
+        X: =252
+        Y: =427
+        ZIndex: =3
+
+    ConfirmSubmitScreenСheckMark As icon.Check:
+        BorderColor: =RGBA(158, 11, 15, 1)
+        Color: =RGBA(158, 11, 15, 1)
+        DisabledFill: =ConfirmSubmitScreenСheckMark.Fill
+        FocusedBorderColor: =ConfirmSubmitScreenСheckMark.BorderColor
+        FocusedBorderThickness: =0
+        HoverBorderColor: =ColorFade(ConfirmSubmitScreenСheckMark.BorderColor, 20%)
+        HoverColor: =ColorFade(ConfirmSubmitScreenСheckMark.Color, 20%)
+        HoverFill: =ConfirmSubmitScreenСheckMark.Fill
+        Icon: =Icon.Check
+        OnSelect: =Navigate(MyTicketsScreen,None)
+        PressedBorderColor: =ColorFade(ConfirmSubmitScreenСheckMark.BorderColor, -20%)
+        PressedColor: =ColorFade(ConfirmSubmitScreenСheckMark.Color, -20%)
+        PressedFill: =ConfirmSubmitScreenСheckMark.Fill
+        X: =281
+        Y: =456
+        ZIndex: =4
+

@@ -1,0 +1,13 @@
+App As appinfo:
+    BackEnabled: =false
+    MinScreenHeight: =320
+    MinScreenWidth: =320
+    OnStart: |-
+        =ClearCollect(TaskCategories,["LAPTOP / PC equipment issue","LAPTOP / PC software issue"]);
+        ClearCollect(TaskStatus,"NOT STARTED","IN PROGRESS","COMPLETED","DEFERRED","WAITING ON CSR");
+        ClearCollect(TaskPriority,"HIGH","MEDIUM","LOW");
+        Set(MyProfile,Office365Users.MyProfile());
+        ClearCollect(AdminList,"MariaC@contoso.com","JimG@contoso.com","ScottK@contoso.com","NancyA@contoso.com","ThomasA@contoso.com","YvonneM@contoso.com");
+        ClearCollect(TicketList,{Id:1,Title:"Fix Mouse",Description:"That is my cat!!!",Category:"Laptop/PC equipment issue",PercentComplete:"0.9",Priority:"HIGH",AssignedTO:"THOMAS ANDERSEN",TaskStatus:"COMPLETED",Author:"ScottK@contoso.com",Editor:"Scott Konersmann",Created:"2/8/2018 3:29 PM",Modified:"2/5/2018 3:29 PM"},{Id:2,Title:"Replace keyboard", Description:"Please do it ASAP",Category:"Laptop/PC equipment issue",PercentComplete:"0.8",Priority:"LOW",AssignedTO:"YVONNE MCKAY",TaskStatus:"IN PROGRESS",Author:"PATRICK SANDS",Editor:"THOMAS ANDERSEN",Created:"2/5/2018 3:29 PM",Modified:"2/5/2018 3:29 PM"});
+        Set(NumberOfTickets,CountRows(TicketList))
+

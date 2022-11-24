@@ -1,0 +1,15 @@
+Setup As screen:
+    Height: =Max(App.Height, App.DesignHeight)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    HtmlText1 As htmlViewer:
+        Height: =132
+        HoverBorderColor: =HtmlText1.BorderColor
+        HtmlText: |-
+            ="You can find deployment instruction  <a href='https://go.microsoft.com/fwlink/?linkid=868229'><b><font color=blue>here</font></b></a>"
+        PressedBorderColor: =HtmlText1.BorderColor
+        Width: =560
+        X: =40
+        Y: =40
+        ZIndex: =1
+

@@ -1,0 +1,138 @@
+LoginScreen As screen:
+    BackgroundImage: =
+    Fill: =RGBA(56, 86, 153, 30%)
+    Height: =Max(App.Height, App.DesignHeight)
+    ImagePosition: =ImagePosition.Fill
+    OnVisible: =Set(ShowAccessError,false)
+    Width: =Max(App.Width, App.DesignWidth)
+
+    BackgroundDim As rectangle:
+        DisabledFill: =BackgroundDim.Fill
+        Fill: =RGBA(0, 0, 0, 0.8)
+        FocusedBorderColor: =BackgroundDim.BorderColor
+        Height: =1136
+        HoverFill: =BackgroundDim.Fill
+        PressedFill: =BackgroundDim.Fill
+        Width: =640
+        ZIndex: =2
+
+    LoginAsUser As button:
+        BorderColor: =ColorFade(LoginAsUser.Fill, -15%)
+        DisabledBorderColor: =ColorFade(LoginAsUser.BorderColor, 70%)
+        Fill: =RGBA(158, 11, 15, 1)
+        FocusedBorderColor: =LoginAsUser.BorderColor
+        FontWeight: =Normal
+        Height: =89
+        HoverBorderColor: |-
+            =ColorValue("#e0454a")
+        HoverColor: =LoginAsUser.Color
+        HoverFill: =ColorFade(LoginAsUser.Fill, 20%)
+        OnSelect: |-
+            =Set(isAdmin,false);
+            Navigate(MyTicketsScreen,None)
+        PressedBorderColor: =LoginAsUser.Fill
+        PressedColor: =LoginAsUser.Fill
+        PressedFill: =LoginAsUser.Color
+        RadiusBottomLeft: =44.5
+        RadiusBottomRight: =44.5
+        RadiusTopLeft: =44.5
+        RadiusTopRight: =44.5
+        Size: =18
+        Text: ="Login como Solicitante"
+        Width: =485
+        X: =77
+        Y: =424
+        ZIndex: =3
+
+    LoginAsAdmin As button:
+        BorderColor: =ColorFade(LoginAsAdmin.Fill, -15%)
+        DisabledBorderColor: =ColorFade(LoginAsAdmin.BorderColor, 70%)
+        Fill: =RGBA(224, 69, 74, 1)
+        FocusedBorderColor: =LoginAsAdmin.BorderColor
+        FontWeight: =Normal
+        Height: =89
+        HoverBorderColor: |-
+            =ColorValue("#e0454a")
+        HoverColor: =LoginAsAdmin.Color
+        HoverFill: =ColorFade(LoginAsAdmin.Fill, 20%)
+        OnSelect: |-
+            =
+            If(MyProfile.Mail in AdminList.Value,Set(isAdmin,true),Set(isAdmin,false));
+            If(isAdmin,Navigate(MyTicketsScreen,None),Set(ShowAccessError,true))
+        PressedBorderColor: =LoginAsAdmin.Fill
+        PressedColor: =LoginAsAdmin.Fill
+        PressedFill: =LoginAsAdmin.Color
+        RadiusBottomLeft: =44.5
+        RadiusBottomRight: =44.5
+        RadiusTopLeft: =44.5
+        RadiusTopRight: =44.5
+        Size: =18
+        Text: ="Login as a Help Desk Admin"
+        Width: =485
+        X: =77
+        Y: =684
+        ZIndex: =4
+
+    SubmitTicketLabel As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =SubmitTicketLabel.BorderColor
+        Height: =19
+        HoverBorderColor: =SubmitTicketLabel.BorderColor
+        HoverColor: =SubmitTicketLabel.Color
+        HoverFill: =SubmitTicketLabel.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =SubmitTicketLabel.BorderColor
+        PressedColor: =SubmitTicketLabel.Color
+        PressedFill: =SubmitTicketLabel.Fill
+        Size: =18
+        Text: ="TO SUBMIT A HELP DESK TICKET"
+        Width: =360
+        X: =140
+        Y: =364
+        ZIndex: =5
+
+    UpdateTicketLabel As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =UpdateTicketLabel.BorderColor
+        Height: =19
+        HoverBorderColor: =UpdateTicketLabel.BorderColor
+        HoverColor: =UpdateTicketLabel.Color
+        HoverFill: =UpdateTicketLabel.Fill
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        PressedBorderColor: =UpdateTicketLabel.BorderColor
+        PressedColor: =UpdateTicketLabel.Color
+        PressedFill: =UpdateTicketLabel.Fill
+        Size: =18
+        Text: ="TO ASSIGN OR UPDATE TICKETS"
+        Width: =370
+        X: =142
+        Y: =625
+        ZIndex: =6
+
+    LoginScreenAccessDeniedText As label:
+        Align: =Center
+        Color: =RGBA(255, 255, 255, 1)
+        FocusedBorderColor: =LoginScreenAccessDeniedText.BorderColor
+        Height: =98
+        HoverBorderColor: =LoginScreenAccessDeniedText.BorderColor
+        HoverColor: =LoginScreenAccessDeniedText.Color
+        HoverFill: =LoginScreenAccessDeniedText.Fill
+        LineHeight: =1.9
+        PaddingLeft: =80
+        PaddingRight: =80
+        PressedBorderColor: =LoginScreenAccessDeniedText.BorderColor
+        PressedColor: =LoginScreenAccessDeniedText.Color
+        PressedFill: =LoginScreenAccessDeniedText.Fill
+        Size: =15
+        Text: ="We were unable to give you access as an admin as your account does not have admin privileges."
+        Visible: =ShowAccessError
+        Width: =640
+        Y: =787
+        ZIndex: =7
+
