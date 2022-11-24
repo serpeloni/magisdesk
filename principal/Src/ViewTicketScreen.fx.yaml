@@ -86,7 +86,7 @@ ViewTicketScreen As screen:
             ViewTicketScreenCompletedLabel As label:
                 Color: =RGBA(120, 144, 156, 1)
                 FocusedBorderColor: =ViewTicketScreenCompletedLabel.BorderColor
-                Height: =29
+                Height: =22
                 HoverBorderColor: =ViewTicketScreenCompletedLabel.BorderColor
                 HoverColor: =ViewTicketScreenCompletedLabel.Color
                 HoverFill: =ViewTicketScreenCompletedLabel.Fill
@@ -99,8 +99,8 @@ ViewTicketScreen As screen:
                 PressedColor: =ViewTicketScreenCompletedLabel.Color
                 PressedFill: =ViewTicketScreenCompletedLabel.Fill
                 Size: =14
-                Text: ="PERCENT COMPLETE"
-                Width: =240
+                Text: ="PERCENTUAL PARA COMPLETAR"
+                Width: =298
                 X: =36
                 Y: =701
                 ZIndex: =4
@@ -473,7 +473,7 @@ ViewTicketScreen As screen:
                 PressedColor: =ViewTicketScreenGalleryPriorityLabel.Color
                 PressedFill: =ViewTicketScreenGalleryPriorityLabel.Fill
                 Size: =14
-                Text: ="PRIORITY"
+                Text: ="PRIORIDADE"
                 Width: =120
                 X: =36
                 Y: =485
@@ -517,7 +517,7 @@ ViewTicketScreen As screen:
                 PressedColor: =ViewTicketScreenCategoryLabel.Color
                 PressedFill: =ViewTicketScreenCategoryLabel.Fill
                 Size: =14
-                Text: ="CATEGORY"
+                Text: ="CATEGORIA"
                 Width: =120
                 X: =34
                 Y: =593
