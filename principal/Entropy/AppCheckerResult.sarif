@@ -1664,6 +1664,36 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "App.photo-helpdeskadmin"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.photo-helpdeskadmin",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "photo-helpdeskadmin",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611"
                 }
               ],
@@ -1675,6 +1705,36 @@
               },
               "properties": {
                 "member": "kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Help-desk-icon-Graphics-10843174-1-580x386"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Help-desk-icon-Graphics-10843174-1-580x386",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Help-desk-icon-Graphics-10843174-1-580x386",
                 "module": "App",
                 "type": "App"
               }

@@ -170,7 +170,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/24/2022 01:01:02",
+  "HeaderLastSavedDateTimeUTC": "11/24/2022 01:06:00",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "81d6b9bf-1cff-4187-b95e-1894c2ebac70": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/f0138aa040704f8e943af22689ae3938\"",
@@ -179,12 +179,16 @@
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
+    "helpdesk": "e349d903-0c4e-477e-9dbc-85be823c3437.PNG",
+    "Help-desk-icon-Graphics-10843174-1-580x386": "2a7964c5-1eb2-4e33-a1f8-763602165502.jpg",
     "icons-8-exit-96-px@3x": "0001.png",
     "icons-8-train-ticket-96-px": "0002.png",
     "kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611": "2c8ddc94-98af-4e89-8f41-cdee18111cf8.jpg",
     "photo-helpdeskadmin": "0003.jpg"
   },
   "LocalResourceRootPaths": {
+    "helpdesk": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/c1b0b442-3b71-4b24-8585-f57c9d8d4497.PNG?sv=2017-04-17&sr=b&sig=X%2BBYEq5fAvwQ0AysM0PSH%2FaIRiT3%2FjMNqwb4jNTyr24%3D&spr=https&se=2022-11-25T01%3A20%3A14Z&sp=r",
+    "Help-desk-icon-Graphics-10843174-1-580x386": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/00c3a7b7-fc58-45a3-9c48-60677212aebe.jpg?sv=2017-04-17&sr=b&sig=lz%2FA6lTOaHQvwgobEaoJn2mv75tEPjwND%2Fz04Pr6zsw%3D&spr=https&se=2022-11-25T01%3A18%3A14Z&sp=r",
     "icons-8-exit-96-px@3x": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=JspINr5bfBL53M4y3feqSPCuJ%2BqzXZY4kJ6%2BVCJlM3o%3D&spr=https&se=2022-11-25T01%3A06%3A22Z&sp=r",
     "icons-8-train-ticket-96-px": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/Assets0Images00002.png?sv=2017-04-17&sr=b&sig=MbFu4D5bo9vAKr%2Bs0d1AiCa7158K06%2FTAVztUnL5p%2B0%3D&spr=https&se=2022-11-25T01%3A06%3A22Z&sp=r",
     "kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/832f30a5-f6c5-42c6-8c3e-46236c234765.jpg?sv=2017-04-17&sr=b&sig=RgdkmmcDIUB0EXx5oajy7HAQxMUW10ENNS2Kk9UPjhQ%3D&spr=https&se=2022-11-25T01%3A08%3A12Z&sp=r",
@@ -445,6 +449,8 @@
     "Image-Basel_ChevronRight": 4,
     "Image-Basel_Message": 5,
     "Image-Basel_Trash": 6,
+    "Image-helpdesk": 13,
+    "Image-Help-desk-icon-Graphics-10843174-1-580x386": 12,
     "Image-icons-8-exit-96-px@3x": 8,
     "Image-icons-8-train-ticket-96-px": 9,
     "Image-kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611": 11,

@@ -1,8 +1,8 @@
 LoginScreen As screen:
-    BackgroundImage: ='photo-helpdeskadmin'
+    BackgroundImage: =helpdesk
     Fill: =RGBA(56, 86, 153, 30%)
     Height: =Max(App.Height, App.DesignHeight)
-    ImagePosition: =ImagePosition.Center
+    ImagePosition: =ImagePosition.Fill
     OnVisible: =Set(ShowAccessError,false)
     Width: =Max(App.Width, App.DesignWidth)
 
@@ -76,7 +76,7 @@ LoginScreen As screen:
     SubmitTicketLabel As label:
         Color: =RGBA(255, 255, 255, 1)
         FocusedBorderColor: =SubmitTicketLabel.BorderColor
-        Height: =19
+        Height: =24
         HoverBorderColor: =SubmitTicketLabel.BorderColor
         HoverColor: =SubmitTicketLabel.Color
         HoverFill: =SubmitTicketLabel.Fill
@@ -91,7 +91,7 @@ LoginScreen As screen:
         Text: ="PARA CRIAR CHAMADOS"
         Width: =280
         X: =179
-        Y: =370
+        Y: =375
         ZIndex: =5
 
     UpdateTicketLabel As label:
@@ -112,7 +112,7 @@ LoginScreen As screen:
         Text: ="PARA ATENDIMENTO DE CHAMADOS"
         Width: =420
         X: =109
-        Y: =631
+        Y: =619
         ZIndex: =6
 
     LoginScreenAccessDeniedText As label:
