@@ -302,7 +302,7 @@ ViewTicketScreen As screen:
                 PressedFill: =ViewTicketScreenCreatedByLabel.Fill
                 Size: =13.5
                 Text: |-
-                    ="CREATED BY:"
+                    ="CRIADO POR:"
                 Width: =124
                 X: =44
                 Y: =341
@@ -378,7 +378,7 @@ ViewTicketScreen As screen:
                 Color: =RGBA(255, 255, 255, 1)
                 FocusedBorderColor: =ViewTicketScreenCreatedBy.BorderColor
                 FontWeight: =Semibold
-                Height: =37
+                Height: =44
                 HoverBorderColor: =ViewTicketScreenCreatedBy.BorderColor
                 HoverColor: =ViewTicketScreenCreatedBy.Color
                 HoverFill: =ViewTicketScreenCreatedBy.Fill
@@ -392,7 +392,7 @@ ViewTicketScreen As screen:
                 Size: =18
                 Text: |-
                     =Coalesce(First(Office365Users.SearchUser({searchTerm:Text(SelectedTicket.Author)})).DisplayName, SelectedTicket.Author)
-                Width: =310
+                Width: =427
                 X: =159
                 Y: =327
                 ZIndex: =17
