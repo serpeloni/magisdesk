@@ -21,10 +21,10 @@ LoginScreen As screen:
         DisabledBorderColor: =ColorFade(LoginAsUser.BorderColor, 70%)
         Fill: =RGBA(62, 96, 170, 1)
         FocusedBorderColor: =LoginAsUser.BorderColor
-        FontWeight: =Normal
+        FontWeight: =FontWeight.Bold
         Height: =89
         HoverBorderColor: |-
-            =ColorValue("#e0454a")
+            =ColorValue("#08298A")
         HoverColor: =LoginAsUser.Color
         HoverFill: =ColorFade(LoginAsUser.Fill, 20%)
         OnSelect: |-
