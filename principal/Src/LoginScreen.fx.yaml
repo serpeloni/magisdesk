@@ -47,12 +47,12 @@ LoginScreen As screen:
     LoginAsAdmin As button:
         BorderColor: =ColorFade(LoginAsAdmin.Fill, -15%)
         DisabledBorderColor: =ColorFade(LoginAsAdmin.BorderColor, 70%)
-        Fill: =RGBA(224, 69, 74, 1)
+        Fill: =RGBA(62, 96, 170, 1)
         FocusedBorderColor: =LoginAsAdmin.BorderColor
-        FontWeight: =Normal
+        FontWeight: =FontWeight.Bold
         Height: =89
         HoverBorderColor: |-
-            =ColorValue("#e0454a")
+            =ColorValue("#08298A")
         HoverColor: =LoginAsAdmin.Color
         HoverFill: =ColorFade(LoginAsAdmin.Fill, 20%)
         OnSelect: |-
@@ -67,7 +67,7 @@ LoginScreen As screen:
         RadiusTopLeft: =44.5
         RadiusTopRight: =44.5
         Size: =18
-        Text: ="Conectar como Admin de Help Desk"
+        Text: ="Login como Analista"
         Width: =485
         X: =77
         Y: =684
@@ -88,16 +88,16 @@ LoginScreen As screen:
         PressedColor: =SubmitTicketLabel.Color
         PressedFill: =SubmitTicketLabel.Fill
         Size: =18
-        Text: ="TO SUBMIT A HELP DESK TICKET"
-        Width: =360
-        X: =140
-        Y: =364
+        Text: ="PARA CRIAR CHAMADOS"
+        Width: =280
+        X: =179
+        Y: =370
         ZIndex: =5
 
     UpdateTicketLabel As label:
         Color: =RGBA(255, 255, 255, 1)
         FocusedBorderColor: =UpdateTicketLabel.BorderColor
-        Height: =19
+        Height: =45
         HoverBorderColor: =UpdateTicketLabel.BorderColor
         HoverColor: =UpdateTicketLabel.Color
         HoverFill: =UpdateTicketLabel.Fill
@@ -109,10 +109,10 @@ LoginScreen As screen:
         PressedColor: =UpdateTicketLabel.Color
         PressedFill: =UpdateTicketLabel.Fill
         Size: =18
-        Text: ="TO ASSIGN OR UPDATE TICKETS"
-        Width: =370
-        X: =142
-        Y: =625
+        Text: ="PARA ATENDIMENTO DE CHAMADOS"
+        Width: =420
+        X: =109
+        Y: =631
         ZIndex: =6
 
     LoginScreenAccessDeniedText As label:
