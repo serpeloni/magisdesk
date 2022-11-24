@@ -4,6 +4,7 @@ ConfirmSubmitScreen As screen:
     Width: =Max(App.Width, App.DesignWidth)
 
     Label1 As label:
+        Fill: =RGBA(216, 223, 238, 1)
         FocusedBorderColor: =Label1.BorderColor
         Height: =1136
         HoverBorderColor: =Label1.BorderColor
@@ -20,7 +21,8 @@ ConfirmSubmitScreen As screen:
 
     ConfirmSubmitScreenText As label:
         FocusedBorderColor: =ConfirmSubmitScreenText.BorderColor
-        Height: =76
+        FontWeight: =FontWeight.Bold
+        Height: =78
         HoverBorderColor: =ConfirmSubmitScreenText.BorderColor
         HoverColor: =ConfirmSubmitScreenText.Color
         HoverFill: =ConfirmSubmitScreenText.Fill
@@ -33,16 +35,14 @@ ConfirmSubmitScreen As screen:
         PressedColor: =ConfirmSubmitScreenText.Color
         PressedFill: =ConfirmSubmitScreenText.Fill
         Size: =27
-        Text: |-
-            ="Your help desk ticket 
-            has been submitted."
-        Width: =370
-        X: =145
-        Y: =630
+        Text: ="Chamado criado com sucesso!"
+        Width: =558
+        X: =41
+        Y: =567
         ZIndex: =2
 
     ConfirmSubmitScreenCircle As circle:
-        BorderColor: =RGBA(158, 11, 15, 1)
+        BorderColor: =RGBA(62, 96, 170, 1)
         BorderThickness: =5
         DisabledFill: =ConfirmSubmitScreenCircle.Fill
         Fill: =RGBA(255, 255, 255, 1)
@@ -58,8 +58,8 @@ ConfirmSubmitScreen As screen:
         ZIndex: =3
 
     ConfirmSubmitScreenСheckMark As icon.Check:
-        BorderColor: =RGBA(158, 11, 15, 1)
-        Color: =RGBA(158, 11, 15, 1)
+        BorderColor: =RGBA(62, 96, 170, 1)
+        Color: =RGBA(62, 96, 170, 1)
         DisabledFill: =ConfirmSubmitScreenСheckMark.Fill
         FocusedBorderColor: =ConfirmSubmitScreenСheckMark.BorderColor
         FocusedBorderThickness: =0
