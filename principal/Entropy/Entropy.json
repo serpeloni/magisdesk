@@ -170,7 +170,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/24/2022 01:06:00",
+  "HeaderLastSavedDateTimeUTC": "11/24/2022 01:07:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "81d6b9bf-1cff-4187-b95e-1894c2ebac70": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/f0138aa040704f8e943af22689ae3938\"",
@@ -179,7 +179,7 @@
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
-    "helpdesk": "e349d903-0c4e-477e-9dbc-85be823c3437.PNG",
+    "helpdesk": "8b54cdae-d92e-40d5-92d8-e0eb3f134479.PNG",
     "Help-desk-icon-Graphics-10843174-1-580x386": "2a7964c5-1eb2-4e33-a1f8-763602165502.jpg",
     "icons-8-exit-96-px@3x": "0001.png",
     "icons-8-train-ticket-96-px": "0002.png",
@@ -187,7 +187,7 @@
     "photo-helpdeskadmin": "0003.jpg"
   },
   "LocalResourceRootPaths": {
-    "helpdesk": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/c1b0b442-3b71-4b24-8585-f57c9d8d4497.PNG?sv=2017-04-17&sr=b&sig=X%2BBYEq5fAvwQ0AysM0PSH%2FaIRiT3%2FjMNqwb4jNTyr24%3D&spr=https&se=2022-11-25T01%3A20%3A14Z&sp=r",
+    "helpdesk": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/8052ec8d-2af5-4066-b688-79956c56b214.PNG?sv=2017-04-17&sr=b&sig=6GRyWUf7yGAE6d5xMSUFYGiu0gLGv1Rxwf2s2v1cq7M%3D&spr=https&se=2022-11-25T01%3A22%3A12Z&sp=r",
     "Help-desk-icon-Graphics-10843174-1-580x386": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/00c3a7b7-fc58-45a3-9c48-60677212aebe.jpg?sv=2017-04-17&sr=b&sig=lz%2FA6lTOaHQvwgobEaoJn2mv75tEPjwND%2Fz04Pr6zsw%3D&spr=https&se=2022-11-25T01%3A18%3A14Z&sp=r",
     "icons-8-exit-96-px@3x": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=JspINr5bfBL53M4y3feqSPCuJ%2BqzXZY4kJ6%2BVCJlM3o%3D&spr=https&se=2022-11-25T01%3A06%3A22Z&sp=r",
     "icons-8-train-ticket-96-px": "https://docserverpwaprodeus.blob.core.windows.net/1320cf26-e194-46f2-aa3a-e38df15d3c5f-1/resource/Assets0Images00002.png?sv=2017-04-17&sr=b&sig=MbFu4D5bo9vAKr%2Bs0d1AiCa7158K06%2FTAVztUnL5p%2B0%3D&spr=https&se=2022-11-25T01%3A06%3A22Z&sp=r",
