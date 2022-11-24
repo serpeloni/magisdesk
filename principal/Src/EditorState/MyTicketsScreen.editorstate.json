@@ -31,7 +31,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "galleryTemplate2",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -719,7 +719,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenAddButtonPlus_1",
-      "ParentIndex": 0,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1252,7 +1252,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryAssignedTo",
-      "ParentIndex": 12,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1441,7 +1441,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ThisItem.Body",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -2559,7 +2559,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryIcon",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2791,7 +2791,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryId",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2985,7 +2985,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ThisItem.Body",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -3005,7 +3005,14 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        "FontWeight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FontWeight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Align",
         "VerticalAlign",
         {
@@ -3097,7 +3104,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryIdText",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3358,7 +3365,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryMask",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3564,7 +3571,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryPriority",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3753,7 +3760,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "ThisItem.Body",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Text",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -4328,7 +4335,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryStatus",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4941,7 +4948,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "MyTicketsScreenGalleryWhiteBackground",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

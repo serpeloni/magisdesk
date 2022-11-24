@@ -136,14 +136,15 @@ MyTicketsScreen As screen:
             PressedFill: =MyTicketsScreenGalleryId.Fill
             Size: =18
             Text: =ThisItem.Id
-            Width: =73
-            X: =129
-            Y: =29
+            Width: =97
+            X: =192
+            Y: =28
             ZIndex: =5
 
         MyTicketsScreenGalleryIdText As label:
             FocusedBorderColor: =MyTicketsScreenGalleryIdText.BorderColor
-            Height: =30
+            FontWeight: =FontWeight.Bold
+            Height: =28
             HoverBorderColor: =MyTicketsScreenGalleryIdText.BorderColor
             HoverColor: =MyTicketsScreenGalleryIdText.Color
             HoverFill: =MyTicketsScreenGalleryIdText.Fill
@@ -156,9 +157,8 @@ MyTicketsScreen As screen:
             PressedColor: =MyTicketsScreenGalleryIdText.Color
             PressedFill: =MyTicketsScreenGalleryIdText.Fill
             Size: =13.5
-            Text: |-
-                ="ID:"
-            Width: =35
+            Text: ="Número"
+            Width: =81
             X: =102
             Y: =30
             ZIndex: =6
@@ -167,7 +167,7 @@ MyTicketsScreen As screen:
             Color: =RGBA(120, 144, 156, 1)
             FocusedBorderColor: =MyTicketsScreenGalleryPriorityText.BorderColor
             FontWeight: =Semibold
-            Height: =13
+            Height: =23
             HoverBorderColor: =MyTicketsScreenGalleryPriorityText.BorderColor
             HoverColor: =MyTicketsScreenGalleryPriorityText.Color
             HoverFill: =MyTicketsScreenGalleryPriorityText.Fill
@@ -180,17 +180,17 @@ MyTicketsScreen As screen:
             PressedColor: =MyTicketsScreenGalleryPriorityText.Color
             PressedFill: =MyTicketsScreenGalleryPriorityText.Fill
             Size: =12
-            Text: ="PRIORITY"
-            Width: =75
-            X: =33
-            Y: =136
+            Text: ="PRIORIDADE"
+            Width: =108
+            X: =30
+            Y: =114
             ZIndex: =7
 
         MyTicketsScreenGalleryAssignedToText As label:
             Color: =RGBA(120, 144, 156, 1)
             FocusedBorderColor: =MyTicketsScreenGalleryAssignedToText.BorderColor
             FontWeight: =Semibold
-            Height: =13
+            Height: =25
             HoverBorderColor: =MyTicketsScreenGalleryAssignedToText.BorderColor
             HoverColor: =MyTicketsScreenGalleryAssignedToText.Color
             HoverFill: =MyTicketsScreenGalleryAssignedToText.Fill
@@ -203,10 +203,10 @@ MyTicketsScreen As screen:
             PressedColor: =MyTicketsScreenGalleryAssignedToText.Color
             PressedFill: =MyTicketsScreenGalleryAssignedToText.Fill
             Size: =12
-            Text: ="ASSIGNED TO"
+            Text: ="ANALISTA"
             Width: =109
-            X: =202
-            Y: =136
+            X: =192
+            Y: =114
             ZIndex: =8
 
         MyTicketsScreenGalleryPriority As label:
