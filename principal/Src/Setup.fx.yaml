@@ -6,7 +6,7 @@ Setup As screen:
         Height: =132
         HoverBorderColor: =HtmlText1.BorderColor
         HtmlText: |-
-            ="You can find deployment instruction  <a href='https://go.microsoft.com/fwlink/?linkid=868229'><b><font color=blue>here</font></b></a>"
+            ="Você pode achar instruções de implantação  <a href='https://go.microsoft.com/fwlink/?linkid=868229'><b><font color=blue>aqui</font></b></a>"
         PressedBorderColor: =HtmlText1.BorderColor
         Width: =560
         X: =40
