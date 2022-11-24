@@ -19,7 +19,7 @@ LoginScreen As screen:
     LoginAsUser As button:
         BorderColor: =ColorFade(LoginAsUser.Fill, -15%)
         DisabledBorderColor: =ColorFade(LoginAsUser.BorderColor, 70%)
-        Fill: =RGBA(158, 11, 15, 1)
+        Fill: =RGBA(62, 96, 170, 1)
         FocusedBorderColor: =LoginAsUser.BorderColor
         FontWeight: =Normal
         Height: =89
@@ -38,7 +38,7 @@ LoginScreen As screen:
         RadiusTopLeft: =44.5
         RadiusTopRight: =44.5
         Size: =18
-        Text: ="Login como Solicitante"
+        Text: ="Login como Usuário"
         Width: =485
         X: =77
         Y: =424
