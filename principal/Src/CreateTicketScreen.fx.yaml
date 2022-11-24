@@ -433,7 +433,7 @@ CreateTicketScreen As screen:
                 Title:CreateTicketScreenTitleText.Text,
                 Priority: CreateTicketScreenPriorityDropDown.SelectedText.Value,
                 Author:MyProfile.Mail,
-                TaskStatus:"NOT STARTED",
+                TaskStatus:"NÃO INICIADO",
                 PercentComplete: "0",
                 Created:Now(),
                 AssignedTO:"",
