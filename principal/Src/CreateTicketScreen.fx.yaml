@@ -34,7 +34,7 @@ CreateTicketScreen As screen:
         Color: =RGBA(74, 74, 74, 1)
         FocusedBorderColor: =CreateTicketScreenTicketIDText.BorderColor
         FontWeight: =Normal
-        Height: =19
+        Height: =41
         HoverBorderColor: =CreateTicketScreenTicketIDText.BorderColor
         HoverColor: =CreateTicketScreenTicketIDText.Color
         HoverFill: =CreateTicketScreenTicketIDText.Fill
@@ -47,10 +47,10 @@ CreateTicketScreen As screen:
         PressedFill: =CreateTicketScreenTicketIDText.Fill
         Size: =13.5
         Text: |-
-            ="TICKET ID:"
-        Width: =90
+            ="ID chamado:"
+        Width: =272
         X: =14
-        Y: =132
+        Y: =128
         ZIndex: =4
 
     CreateTicketScreenTitleHeader As group:
@@ -73,7 +73,7 @@ CreateTicketScreen As screen:
         CreateTicketScreenTitle As label:
             Color: =RGBA(221, 221, 221, 1)
             FocusedBorderColor: =CreateTicketScreenTitle.BorderColor
-            Height: =29
+            Height: =54
             HoverBorderColor: =CreateTicketScreenTitle.BorderColor
             HoverColor: =CreateTicketScreenTitle.Color
             HoverFill: =CreateTicketScreenTitle.Fill
@@ -85,9 +85,9 @@ CreateTicketScreen As screen:
             PressedColor: =CreateTicketScreenTitle.Color
             PressedFill: =CreateTicketScreenTitle.Fill
             Size: =27
-            Text: ="Create Ticket"
-            Width: =220
-            X: =226
+            Text: ="Criação de chamado"
+            Width: =452
+            X: =154
             Y: =30
             ZIndex: =2
 
@@ -95,7 +95,7 @@ CreateTicketScreen As screen:
         Color: =RGBA(74, 74, 74, 1)
         FocusedBorderColor: =CreateTicketScreenTicketID.BorderColor
         FontWeight: =Semibold
-        Height: =23
+        Height: =21
         HoverBorderColor: =CreateTicketScreenTicketID.BorderColor
         HoverColor: =CreateTicketScreenTicketID.Color
         HoverFill: =CreateTicketScreenTicketID.Fill
@@ -108,9 +108,9 @@ CreateTicketScreen As screen:
         PressedFill: =CreateTicketScreenTicketID.Fill
         Size: =18
         Text: =NumberOfTickets + 1
-        Width: =523
-        X: =107
-        Y: =128
+        Width: =243
+        X: =130
+        Y: =138
         ZIndex: =5
 
     CreateTicketScreenStatusLabel As label:
@@ -165,7 +165,7 @@ CreateTicketScreen As screen:
         PressedColor: =CreateTicketScreenStatus.Color
         PressedFill: =CreateTicketScreenStatus.Fill
         Size: =18
-        Text: ="NOT STARTED"
+        Text: ="NÃO INICIADO"
         Width: =196
         X: =90
         Y: =180
@@ -187,10 +187,10 @@ CreateTicketScreen As screen:
         PressedColor: =CreateTicketScreenTitleLabel.Color
         PressedFill: =CreateTicketScreenTitleLabel.Fill
         Size: =13.5
-        Text: ="TITLE"
-        Width: =73
-        X: =15
-        Y: =276
+        Text: ="TÍTULO"
+        Width: =165
+        X: =17
+        Y: =301
         ZIndex: =10
 
     CreateTicketScreenTitleStar As label:
@@ -211,8 +211,8 @@ CreateTicketScreen As screen:
         Size: =13.5
         Text: ="*"
         Width: =73
-        X: =60
-        Y: =276
+        X: =90
+        Y: =289
         ZIndex: =11
 
     CreateTicketScreenTitleText As text:
@@ -228,8 +228,8 @@ CreateTicketScreen As screen:
         PressedFill: =CreateTicketScreenTitleText.Fill
         Size: =18
         Width: =611
-        X: =15
-        Y: =307
+        X: =14
+        Y: =325
         ZIndex: =12
 
     CreateTicketScreenCategoryLabel As label:
@@ -248,7 +248,7 @@ CreateTicketScreen As screen:
         PressedColor: =CreateTicketScreenCategoryLabel.Color
         PressedFill: =CreateTicketScreenCategoryLabel.Fill
         Size: =13.5
-        Text: ="CATEGORY"
+        Text: ="CATEGORIA"
         Width: =100
         X: =16
         Y: =407
@@ -301,7 +301,7 @@ CreateTicketScreen As screen:
         Color: =RGBA(74, 74, 74, 1)
         FocusedBorderColor: =CreateTicketScreenPriorityLabel.BorderColor
         FontWeight: =Normal
-        Height: =15
+        Height: =25
         HoverBorderColor: =CreateTicketScreenPriorityLabel.BorderColor
         HoverColor: =CreateTicketScreenPriorityLabel.Color
         HoverFill: =CreateTicketScreenPriorityLabel.Fill
@@ -313,10 +313,10 @@ CreateTicketScreen As screen:
         PressedColor: =CreateTicketScreenPriorityLabel.Color
         PressedFill: =CreateTicketScreenPriorityLabel.Fill
         Size: =13.5
-        Text: ="PRIORITY"
-        Width: =83
+        Text: ="PRIORIDADE"
+        Width: =247
         X: =17
-        Y: =537
+        Y: =528
         ZIndex: =16
 
     CreateTicketScreenDescriptionLabel As label:
@@ -335,7 +335,7 @@ CreateTicketScreen As screen:
         PressedColor: =CreateTicketScreenDescriptionLabel.Color
         PressedFill: =CreateTicketScreenDescriptionLabel.Fill
         Size: =13.5
-        Text: ="DESCRIPTION"
+        Text: ="DESCRIÇÃO"
         Width: =122
         X: =16
         Y: =668

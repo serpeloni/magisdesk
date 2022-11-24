@@ -4455,7 +4455,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CreateTicketScreenTicketID",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4764,7 +4764,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CreateTicketScreenTicketIDText",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5566,7 +5566,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CreateTicketScreenTitleLabel",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5875,7 +5875,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "CreateTicketScreenTitleStar",
-      "ParentIndex": 9,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
