@@ -1,8 +1,8 @@
 LoginScreen As screen:
-    BackgroundImage: =
+    BackgroundImage: ='photo-helpdeskadmin'
     Fill: =RGBA(56, 86, 153, 30%)
     Height: =Max(App.Height, App.DesignHeight)
-    ImagePosition: =ImagePosition.Fill
+    ImagePosition: =ImagePosition.Center
     OnVisible: =Set(ShowAccessError,false)
     Width: =Max(App.Width, App.DesignWidth)
 
@@ -119,7 +119,7 @@ LoginScreen As screen:
         Align: =Center
         Color: =RGBA(255, 255, 255, 1)
         FocusedBorderColor: =LoginScreenAccessDeniedText.BorderColor
-        Height: =98
+        Height: =66
         HoverBorderColor: =LoginScreenAccessDeniedText.BorderColor
         HoverColor: =LoginScreenAccessDeniedText.Color
         HoverFill: =LoginScreenAccessDeniedText.Fill
@@ -130,9 +130,9 @@ LoginScreen As screen:
         PressedColor: =LoginScreenAccessDeniedText.Color
         PressedFill: =LoginScreenAccessDeniedText.Fill
         Size: =15
-        Text: ="We were unable to give you access as an admin as your account does not have admin privileges."
+        Text: ="⚠️Não foi possível conceder acesso como analista, sua conta não possui permissão."
         Visible: =ShowAccessError
         Width: =640
-        Y: =787
+        Y: =795
         ZIndex: =7
 

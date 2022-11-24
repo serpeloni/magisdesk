@@ -1664,17 +1664,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.photo-helpdeskadmin"
+                  "fullyQualifiedName": "App.kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.photo-helpdeskadmin",
+                  "fullyQualifiedName": "App.kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "photo-helpdeskadmin",
+                "member": "kisspng-customer-service-help-desk-technical-support-roadside-icons-5adedc60a16568.1831761815245548486611",
                 "module": "App",
                 "type": "App"
               }
