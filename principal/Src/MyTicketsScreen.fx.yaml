@@ -463,7 +463,7 @@ MyTicketsScreen As screen:
             OnSelect: =Navigate(LoginScreen,None)
             PressedBorderColor: =ColorFade(MyTicketsScreenLogoutIcon.BorderColor, -20%)
             PressedFill: =ColorFade(MyTicketsScreenLogoutIcon.Fill, -20%)
-            Width: =40
+            Width: =55
             X: =20
             Y: =17
             ZIndex: =6
@@ -480,9 +480,9 @@ MyTicketsScreen As screen:
             PressedColor: =MyTicketsScreenLogoutText.Color
             PressedFill: =MyTicketsScreenLogoutText.Fill
             Size: =10
-            Text: ="LOGOUT"
-            Width: =78
-            X: =14
+            Text: ="SAIR"
+            Width: =55
+            X: =35
             Y: =64
             ZIndex: =7
 
