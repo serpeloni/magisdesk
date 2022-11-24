@@ -1,4 +1,5 @@
 ConfirmSubmitScreen As screen:
+    BackgroundImage: =
     Fill: =RGBA(250, 250, 250, 1)
     Height: =Max(App.Height, App.DesignHeight)
     Width: =Max(App.Width, App.DesignWidth)
