@@ -866,7 +866,7 @@ EditTicketScreen As screen:
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
                 Size: =13.5
-                Text: ="UPDATE"
+                Text: ="Atualizar"
                 Width: =130
                 X: =336
                 Y: =1436
