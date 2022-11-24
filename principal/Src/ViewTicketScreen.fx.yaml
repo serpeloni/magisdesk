@@ -280,7 +280,7 @@ ViewTicketScreen As screen:
                 PressedFill: =ViewTicketScreenCreatedLabel.Fill
                 Size: =13.5
                 Text: |-
-                    ="CREATED:"
+                    ="CRIADO:"
                 Width: =101
                 X: =44
                 Y: =311
