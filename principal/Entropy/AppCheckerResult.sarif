@@ -14,1176 +14,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenLogoutIcon"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenLogoutIcon"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenAddButtonCircle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenAddButtonCircle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenAddButtonCircle"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenAddButtonPlus"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenAddButtonPlus"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenAddButtonPlus"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenLogoutText"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenLogoutText"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "MyTicketsScreen",
-                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenHeaderBackground.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenHeaderBackground.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenHeaderBackground"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenStatusDropdown.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenStatusDropdown.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenStatusDropdown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToDisplayLabel.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToDisplayLabel.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToDisplayLabel"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchInput.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchInput.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchInput"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenDescriptionInput.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenDescriptionInput.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenDescriptionInput"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ViewTicketScreen",
-                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "ViewTicketScreen",
-                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ViewTicketScreen",
-                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBackground.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBackground.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ViewTicketScreen",
-                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBackground"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "ViewTicketScreen",
-                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "ViewTicketScreen",
-                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "ConfirmSubmitScreen.Label1.FocusedBorderThickness"
                 }
               ],
@@ -1207,7 +37,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1267,7 +97,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1327,7 +157,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1387,7 +217,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1417,7 +247,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1477,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1537,7 +367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1567,7 +397,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1597,7 +427,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1627,7 +457,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1657,7 +487,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1687,7 +517,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -1717,6 +547,1176 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenLogoutIcon"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutIcon.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenLogoutIcon"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenAddButtonCircle"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenAddButtonCircle"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonCircle.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenAddButtonCircle"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenAddButtonPlus"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenAddButtonPlus"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenAddButtonPlus.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenAddButtonPlus"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenLogoutText"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenLogoutText.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenLogoutText"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenGalleryMask"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "MyTicketsScreen",
+                "type": "MyTicketsScreen.MyTicketsScreenGallery.MyTicketsScreenAddButtonPlus_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenHeaderBackground.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenHeaderBackground.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenHeaderBackground"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenStatusDropdown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenStatusDropdown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenStatusDropdown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCompletedSlider"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToDisplayLabel.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToDisplayLabel.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToDisplayLabel"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchInput.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchInput.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchInput"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenAssignedToSearchGallery"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenDescriptionInput.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenDescriptionInput.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenDescriptionInput"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "EditTicketScreen",
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ViewTicketScreen",
+                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "ViewTicketScreen",
+                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "ViewTicketScreen",
+                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBack"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBackground.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBackground.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "ViewTicketScreen",
+                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.ViewTicketScreenBackground"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "ViewTicketScreen",
+                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "ViewTicketScreen",
+                "type": "ViewTicketScreen.ViewTicketScreenCanvas.ViewTicketScreenDataCard.EditTicketScreenTicketDescription"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
           "ruleIndex": 0
         },
         {
@@ -1846,20 +1846,20 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "acc-AccessibleLabelNeeded",
+              "id": "acc-FocusBorderShouldBeVisible",
               "messageStrings": {
                 "issue": {
-                  "text": "Missing accessible label"
+                  "text": "Focus isn't showing"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Edit the accessible label property to describe the item."
+                  "Change the FocusedBorderThickness property to be more than 0."
                 ],
                 "level": "Medium",
                 "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
+                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
               }
             },
             {
@@ -1880,20 +1880,20 @@
               }
             },
             {
-              "id": "acc-FocusBorderShouldBeVisible",
+              "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
                 "issue": {
-                  "text": "Focus isn't showing"
+                  "text": "Missing accessible label"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Change the FocusedBorderThickness property to be more than 0."
+                  "Edit the accessible label property to describe the item."
                 ],
                 "level": "Medium",
                 "primaryCategory": "accessibility",
-                "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             },
             {

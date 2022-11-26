@@ -70,7 +70,7 @@ EditTicketScreen As screen:
 
                 EditTicketScreenTitleBackground As rectangle:
                     DisabledFill: =EditTicketScreenTitleBackground.Fill
-                    Fill: =RGBA(158, 11, 15, 1)
+                    Fill: =RGBA(62, 96, 170, 1)
                     FocusedBorderColor: =EditTicketScreenTitleBackground.BorderColor
                     Height: =97
                     HoverFill: =EditTicketScreenTitleBackground.Fill
@@ -81,7 +81,8 @@ EditTicketScreen As screen:
                 EditTicketScreenTitle As label:
                     Color: =RGBA(221, 221, 221, 1)
                     FocusedBorderColor: =EditTicketScreenTitle.BorderColor
-                    Height: =37
+                    FontWeight: =FontWeight.Bold
+                    Height: =33
                     HoverBorderColor: =EditTicketScreenTitle.BorderColor
                     HoverColor: =EditTicketScreenTitle.Color
                     HoverFill: =EditTicketScreenTitle.Fill
@@ -93,9 +94,9 @@ EditTicketScreen As screen:
                     PressedColor: =EditTicketScreenTitle.Color
                     PressedFill: =EditTicketScreenTitle.Fill
                     Size: =27
-                    Text: ="Edição do chamado"
-                    Width: =380
-                    X: =145
+                    Text: ="Edição do Chamado"
+                    Width: =357
+                    X: =132
                     Y: =30
                     ZIndex: =2
 
@@ -143,8 +144,8 @@ EditTicketScreen As screen:
                 Size: =13.5
                 Text: ="*"
                 Width: =73
-                X: =79
-                Y: =490
+                X: =86
+                Y: =484
                 ZIndex: =19
 
             EditTicketScreenStatusDropdown As dropdown:
@@ -231,7 +232,7 @@ EditTicketScreen As screen:
                 PressedFill: =EditTicketScreenStatusLabel.Fill
                 Size: =13.5
                 Text: ="STATUS"
-                Width: =73
+                Width: =93
                 X: =15
                 Y: =490
                 ZIndex: =21
@@ -687,8 +688,8 @@ EditTicketScreen As screen:
                 Size: =13.5
                 Text: ="*"
                 Width: =12
-                X: =131
-                Y: =880
+                X: =117
+                Y: =875
                 ZIndex: =30
 
             EditTicketScreenDescriptionInput As text:
@@ -749,7 +750,7 @@ EditTicketScreen As screen:
                 Size: =13.5
                 Text: ="*"
                 Width: =12
-                X: =108
+                X: =115
                 Y: =1155
                 ZIndex: =33
 
@@ -776,12 +777,12 @@ EditTicketScreen As screen:
                 ZIndex: =34
 
             EditTicketScreenCancelButton As button:
-                BorderColor: =RGBA(158, 11, 15, 1)
-                Color: =RGBA(158, 11, 15, 1)
+                BorderColor: =RGBA(62, 96, 170, 1)
+                Color: =RGBA(62, 96, 170, 1)
                 DisabledBorderColor: =ColorFade(EditTicketScreenCancelButton.BorderColor, 70%)
                 Fill: =RGBA(255, 255, 255, 1)
                 FocusedBorderColor: =EditTicketScreenCancelButton.BorderColor
-                FontWeight: =Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =54
                 HoverBorderColor: =ColorFade(EditTicketScreenCancelButton.BorderColor, 20%)
                 HoverColor: =EditTicketScreenCancelButton.Color
@@ -806,7 +807,7 @@ EditTicketScreen As screen:
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
                 Size: =13.5
-                Text: ="Cancelar"
+                Text: ="CANCELAR"
                 Width: =130
                 X: =166
                 Y: =1438
@@ -821,9 +822,9 @@ EditTicketScreen As screen:
                       If(!IsBlank(AssignedToUserDisplayName) && !IsBlank(EditTicketScreenDescriptionInput.Text) && !IsBlank(AssignedToUserMail), Edit, Disabled), 
                       If(!IsBlank(EditTicketScreenDescriptionInput.Text) || !IsBlank(AssignedToUserMail),DisplayMode.Edit,DisplayMode.Disabled)
                     )
-                Fill: =RGBA(158, 11, 15, 1)
+                Fill: =RGBA(62, 96, 170, 1)
                 FocusedBorderColor: =EditTicketScreenUpdateButton.BorderColor
-                FontWeight: =Semibold
+                FontWeight: =FontWeight.Bold
                 Height: =54
                 HoverBorderColor: =ColorFade(EditTicketScreenUpdateButton.BorderColor, 20%)
                 HoverColor: =EditTicketScreenUpdateButton.Color
@@ -866,7 +867,7 @@ EditTicketScreen As screen:
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
                 Size: =13.5
-                Text: ="Atualizar"
+                Text: ="ATUALIZAR"
                 Width: =130
                 X: =336
                 Y: =1436

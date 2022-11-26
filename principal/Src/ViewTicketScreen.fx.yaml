@@ -114,7 +114,7 @@ ViewTicketScreen As screen:
 
                 ViewTicketScreenTitleBackground As rectangle:
                     DisabledFill: =ViewTicketScreenTitleBackground.Fill
-                    Fill: =RGBA(158, 11, 15, 1)
+                    Fill: =RGBA(43, 67, 119, 1)
                     FocusedBorderColor: =ViewTicketScreenTitleBackground.BorderColor
                     Height: =97
                     HoverFill: =ViewTicketScreenTitleBackground.Fill
@@ -125,7 +125,8 @@ ViewTicketScreen As screen:
                 ViewTicketScreenTitle As label:
                     Color: =RGBA(221, 221, 221, 1)
                     FocusedBorderColor: =ViewTicketScreenTitle.BorderColor
-                    Height: =31
+                    FontWeight: =FontWeight.Bold
+                    Height: =58
                     HoverBorderColor: =ViewTicketScreenTitle.BorderColor
                     HoverColor: =ViewTicketScreenTitle.Color
                     HoverFill: =ViewTicketScreenTitle.Fill
@@ -137,10 +138,10 @@ ViewTicketScreen As screen:
                     PressedColor: =ViewTicketScreenTitle.Color
                     PressedFill: =ViewTicketScreenTitle.Fill
                     Size: =27
-                    Text: ="View Ticket"
-                    Width: =187
-                    X: =226
-                    Y: =30
+                    Text: ="Detalhes do Chamado"
+                    Width: =401
+                    X: =124
+                    Y: =26
                     ZIndex: =6
 
             ViewTicketScreenBack As icon.ChevronLeft:
@@ -588,8 +589,7 @@ ViewTicketScreen As screen:
                 PressedColor: =ViewTicketScreenAssignedToLabel.Color
                 PressedFill: =ViewTicketScreenAssignedToLabel.Fill
                 Size: =14
-                Text: |-
-                    ="ATRIBUIDO PARA:"
+                Text: ="ATRIBUIDO PARA"
                 Width: =160
                 X: =14
                 Y: =858
@@ -640,10 +640,10 @@ ViewTicketScreen As screen:
                 ZIndex: =33
 
             ViewTicketScreenEditButton As button:
-                BorderColor: =RGBA(158, 11, 15, 1)
+                BorderColor: =RGBA(0, 0, 0, 1)
                 Color: =RGBA(255, 255, 255, 1)
                 DisabledBorderColor: =ColorFade(ViewTicketScreenEditButton.BorderColor, 70%)
-                Fill: =RGBA(158, 11, 15, 1)
+                Fill: =RGBA(62, 96, 170, 1)
                 FocusedBorderColor: =ViewTicketScreenEditButton.BorderColor
                 FontWeight: =Semibold
                 Height: =54
@@ -663,7 +663,7 @@ ViewTicketScreen As screen:
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
                 Size: =14
-                Text: ="EDIT"
+                Text: ="EDITAR"
                 Width: =130
                 X: =239
                 Y: =1280
@@ -791,7 +791,7 @@ ViewTicketScreen As screen:
 
                 ViewTicketScreenCompletedIcon As icon.Message:
                     AccessibleLabel: ="4%"
-                    Color: =RGBA(158, 11, 15, 1)
+                    Color: =RGBA(43, 67, 119, 1)
                     DisabledFill: =ViewTicketScreenCompletedIcon.Fill
                     FocusedBorderColor: =ViewTicketScreenCompletedIcon.BorderColor
                     FocusedBorderThickness: =0

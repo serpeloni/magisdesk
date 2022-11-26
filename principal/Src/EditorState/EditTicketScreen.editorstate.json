@@ -4917,7 +4917,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EditTicketScreenDescriptionLabel",
-      "ParentIndex": 26,
+      "ParentIndex": 27,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5226,7 +5226,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EditTicketScreenDescriptionStar",
-      "ParentIndex": 27,
+      "ParentIndex": 26,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -10431,7 +10431,7 @@
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "DropDownSample",
+          "AutoRuleBindingString": "",
           "InvariantPropertyName": "Items",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
@@ -10995,7 +10995,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EditTicketScreenStatusLabel",
-      "ParentIndex": 16,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11304,7 +11304,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "EditTicketScreenStatusStar",
-      "ParentIndex": 17,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11566,7 +11566,14 @@
         "PressedFill",
         "HoverFill",
         "Font",
-        "FontWeight",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "FontWeight",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "Align",
         "VerticalAlign",
         {
