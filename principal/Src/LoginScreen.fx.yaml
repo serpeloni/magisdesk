@@ -136,7 +136,7 @@ LoginScreen As screen:
         Y: =795
         ZIndex: =7
 
-    Image1 As image:
+    Logo As image:
         Height: =264
         Image: ='Anotação 2022-11-28 194725'
         Width: =390
