@@ -92,14 +92,14 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "18bacf31-33bd-4771-be62-586f302cbf4e",
-    "Id": "b8568710-0274-4b43-8ab2-ed463ef3e7c3",
+    "Id": "57931328-5dc6-4086-9e08-78c41f471db7",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "MagicDesk",
+    "Name": "Desk+",
     "OriginatingVersion": "1.246"
   },
   "PublishInfo": {
-    "AppName": "MagicDesk",
+    "AppName": "Desk+",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
