@@ -14,7 +14,7 @@ LoginScreen As screen:
         HoverFill: =BackgroundDim.Fill
         PressedFill: =BackgroundDim.Fill
         Width: =640
-        ZIndex: =2
+        ZIndex: =1
 
     LoginAsUser As button:
         BorderColor: =ColorFade(LoginAsUser.Fill, -15%)
@@ -42,7 +42,7 @@ LoginScreen As screen:
         Width: =485
         X: =77
         Y: =424
-        ZIndex: =3
+        ZIndex: =2
 
     LoginAsAdmin As button:
         BorderColor: =ColorFade(LoginAsAdmin.Fill, -15%)
@@ -71,7 +71,7 @@ LoginScreen As screen:
         Width: =485
         X: =77
         Y: =684
-        ZIndex: =4
+        ZIndex: =3
 
     SubmitTicketLabel As label:
         Color: =RGBA(255, 255, 255, 1)
@@ -92,7 +92,7 @@ LoginScreen As screen:
         Width: =280
         X: =179
         Y: =375
-        ZIndex: =5
+        ZIndex: =4
 
     UpdateTicketLabel As label:
         Color: =RGBA(255, 255, 255, 1)
@@ -113,7 +113,7 @@ LoginScreen As screen:
         Width: =420
         X: =109
         Y: =619
-        ZIndex: =6
+        ZIndex: =5
 
     LoginScreenAccessDeniedText As label:
         Align: =Center
@@ -134,13 +134,13 @@ LoginScreen As screen:
         Visible: =ShowAccessError
         Width: =640
         Y: =795
-        ZIndex: =7
+        ZIndex: =6
 
     Logo As image:
         Height: =264
-        Image: ='Anotação 2022-11-28 194725'
+        Image: ='Anotação 2022-11-28 194725_1'
         Width: =390
         X: =125
         Y: =32
-        ZIndex: =9
+        ZIndex: =7
 

@@ -170,7 +170,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/28/2022 22:49:15",
+  "HeaderLastSavedDateTimeUTC": "11/28/2022 22:49:51",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "81d6b9bf-1cff-4187-b95e-1894c2ebac70": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/f0138aa040704f8e943af22689ae3938\"",
@@ -180,6 +180,7 @@
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
     "Anotação 2022-11-28 194725": "c61b4ca1-cf75-46c2-bb1d-1be5eb431f20.png",
+    "Anotação 2022-11-28 194725_1": "a7816949-f666-4d78-8502-e339397d50c8.png",
     "helpdesk": "8b54cdae-d92e-40d5-92d8-e0eb3f134479.PNG",
     "Help-desk-icon-Graphics-10843174-1-580x386": "2a7964c5-1eb2-4e33-a1f8-763602165502.jpg",
     "icons-8-exit-96-px@3x": "0001.png",
@@ -189,6 +190,7 @@
   },
   "LocalResourceRootPaths": {
     "Anotação 2022-11-28 194725": "https://docserverpwaprodeus.blob.core.windows.net/f6622be7-f0b5-4111-a460-2d153a37017f-1/resource/1ba84d54-b03b-46e0-9301-ad5d460fe48d.png?sv=2017-04-17&sr=b&sig=DL2hTy4mP3yH%2FfaROwdD4xwpe6tYlRaLgsKqBDK7%2BvI%3D&spr=https&se=2022-11-29T23%3A02%3A49Z&sp=r",
+    "Anotação 2022-11-28 194725_1": "https://docserverpwaprodeus.blob.core.windows.net/f6622be7-f0b5-4111-a460-2d153a37017f-1/resource/b9d99d04-bac1-49b1-a452-19c62d9b5459.png?sv=2017-04-17&sr=b&sig=NJ%2BHGpLAhQPjC%2BDNcp9%2Bcm65ZNi394P%2BKGqC2tSM%2BCk%3D&spr=https&se=2022-11-29T23%3A04%3A39Z&sp=r",
     "helpdesk": "https://docserverpwaprodeus.blob.core.windows.net/f6622be7-f0b5-4111-a460-2d153a37017f-1/resource/Assets0Images08b54cdae-d92e-40d5-92d8-e0eb3f134479.PNG?sv=2017-04-17&sr=b&sig=k5NHwmut9JA4XuUfVabY0863Vgw5yGlIHUgSZvzRkok%3D&spr=https&se=2022-11-29T22%3A26%3A09Z&sp=r",
     "Help-desk-icon-Graphics-10843174-1-580x386": "https://docserverpwaprodeus.blob.core.windows.net/f6622be7-f0b5-4111-a460-2d153a37017f-1/resource/Assets0Images02a7964c5-1eb2-4e33-a1f8-763602165502.jpg?sv=2017-04-17&sr=b&sig=Sqh1EqvRe745o529dsHNUVP4r2u%2FCWM4jhiTfZXXXFY%3D&spr=https&se=2022-11-29T22%3A26%3A09Z&sp=r",
     "icons-8-exit-96-px@3x": "https://docserverpwaprodeus.blob.core.windows.net/f6622be7-f0b5-4111-a460-2d153a37017f-1/resource/Assets0Images00001.png?sv=2017-04-17&sr=b&sig=BdZHk68LBRQc%2BzE3gkw4ILj0BmFITYg0E4eAi0rB1YE%3D&spr=https&se=2022-11-29T22%3A26%3A09Z&sp=r",
@@ -445,6 +447,7 @@
   },
   "ResourcesJsonIndices": {
     "Image-Anotação 2022-11-28 194725": 14,
+    "Image-Anotação 2022-11-28 194725_1": 15,
     "Image-Basel_Add": 0,
     "Image-Basel_ArrowsUpDown": 1,
     "Image-Basel_Check": 2,
