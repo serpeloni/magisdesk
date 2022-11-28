@@ -7,6 +7,7 @@ LoginScreen As screen:
     Width: =Max(App.Width, App.DesignWidth)
 
     BackgroundDim As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
         DisabledFill: =BackgroundDim.Fill
         Fill: =RGBA(0, 0, 0, 0.8)
         FocusedBorderColor: =BackgroundDim.BorderColor
