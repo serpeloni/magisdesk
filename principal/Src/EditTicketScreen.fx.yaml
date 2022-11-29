@@ -114,7 +114,7 @@ EditTicketScreen As screen:
                         =Reset(EditTicketScreenCompletedSlider);
                         Reset(EditTicketScreenStatusDropdown);
                         Reset(EditTicketScreenDescriptionInput);
-                        Reset(EditTicketScreenPriorityDropDown);
+                        Reset(EditPriorityField);
                         Reset(EditTicketScreenCategoryDropDown);
                         Reset(EditTicketScreenCompletedSlider);
                         Back()
@@ -791,7 +791,7 @@ EditTicketScreen As screen:
                     =Reset(EditTicketScreenCompletedSlider);
                     Reset(EditTicketScreenStatusDropdown);
                     Reset(EditTicketScreenDescriptionInput);
-                    Reset(EditTicketScreenPriorityDropDown);
+                    Reset(EditPriorityField);
                     Reset(EditTicketScreenCategoryDropDown);
                     Reset(EditTicketScreenCompletedSlider);
                     Navigate(MyTicketsScreen,None)
@@ -834,7 +834,7 @@ EditTicketScreen As screen:
                     If(isAdmin,
                         Patch(TicketList,LookUp(TicketList,Id=SelectedTicket.Id),{
                         
-                        Priority:EditTicketScreenPriorityDropDown.SelectedText.Value,
+                        Priority:EditPriorityField.SelectedText.Value,
                         Category:EditTicketScreenCategoryDropDown.SelectedText.Value,
                         TaskStatus:EditTicketScreenStatusDropdown.SelectedText.Value,  
                         PercentComplete:EditTicketScreenCompletedSlider.Value/100,
@@ -845,7 +845,7 @@ EditTicketScreen As screen:
                         }),
                     
                        Patch(TicketList,LookUp(TicketList,Id = SelectedTicket.Id),{
-                        Priority:EditTicketScreenPriorityDropDown.SelectedText.Value,
+                        Priority:EditPriorityField.SelectedText.Value,
                         Category:EditTicketScreenCategoryDropDown.SelectedText.Value,
                         Editor:MyProfile.Mail,
                         Modified:Now(),
@@ -957,25 +957,12 @@ EditTicketScreen As screen:
                 Y: =1499
                 ZIndex: =42
 
-            EditTicketScreenPriorityDropDown As dropdown:
-                BorderThickness: =0
-                ChevronBackground: =RGBA(255, 255, 255, 1)
-                ChevronFill: =RGBA(74, 74, 74, 1)
-                ChevronHoverBackground: =RGBA(255, 255, 255, 1)
-                ChevronHoverFill: =RGBA(74, 74, 74, 1)
-                Default: =SelectedTicket.Priority
-                FocusedBorderColor: =EditTicketScreenPriorityDropDown.BorderColor
-                FocusedBorderThickness: =0
-                Height: =60
-                HoverBorderColor: =
-                HoverFill: =RGBA(179, 179, 179, 1)
-                Items: =TaskPriority
-                PressedBorderColor: =EditTicketScreenPriorityDropDown.HoverBorderColor
-                PressedFill: =RGBA(179, 179, 179, 1)
-                SelectionFill: =RGBA(230, 230, 230, 1)
-                Size: =18
-                Width: =592
-                X: =14
-                Y: =1317
+            EditPriorityField As dropdown:
+                Height: =70
+                Items: =["Alta", "Normal", "Baixa"]
+                Size: =21
+                Width: =575
+                X: =60
+                Y: =60
                 ZIndex: =43
 

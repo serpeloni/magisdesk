@@ -1604,19 +1604,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.AccessibleLabel"
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditPriorityField.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.AccessibleLabel",
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditPriorityField.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown"
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditPriorityField"
               }
             }
           ],
@@ -1628,36 +1628,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenPriorityDropDown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
         },
         {
           "locations": [
