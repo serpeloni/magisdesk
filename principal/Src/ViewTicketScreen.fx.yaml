@@ -416,8 +416,8 @@ ViewTicketScreen As screen:
                 Size: =18
                 Text: =Text(SelectedTicket.Modified,ShortDate)
                 Width: =320
-                X: =146
-                Y: =367
+                X: =174
+                Y: =366
                 ZIndex: =18
 
             ViewTicketScreenModifiedBy As label:
