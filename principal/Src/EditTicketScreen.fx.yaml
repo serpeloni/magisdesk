@@ -146,7 +146,7 @@ EditTicketScreen As screen:
                     "WAITING ON CSR",
                     	ColorValue("#28a1ff")
                     ))
-                Default: =SelectedTicket.TaskStatus
+                Default: ="NOVO"
                 DisplayMode: =If(isAdmin,DisplayMode.Edit,DisplayMode.Disabled)
                 FocusedBorderColor: =EditTicketScreenStatusDropdown.BorderColor
                 FocusedBorderThickness: =1
@@ -166,7 +166,7 @@ EditTicketScreen As screen:
                     	ColorValue("#28a1ff")
                     ))
                 HoverFill: =RGBA(255, 255, 255, 1)
-                Items: =TaskStatus
+                Items: =["NOVO"]
                 OnChange: =Set(isBlackWhite,false)
                 OnSelect: =Set(isBlackWhite,true)
                 PressedBorderColor: =EditTicketScreenStatusDropdown.HoverBorderColor

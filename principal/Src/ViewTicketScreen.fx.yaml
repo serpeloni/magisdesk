@@ -190,7 +190,7 @@ ViewTicketScreen As screen:
                 PressedColor: =ViewTicketScreenStatus.Color
                 PressedFill: =ViewTicketScreenStatus.Fill
                 Size: =18
-                Text: =SelectedTicket.TaskStatus
+                Text: ="NOVO"
                 VerticalAlign: =VerticalAlign.Top
                 Width: =216
                 X: =388

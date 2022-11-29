@@ -112,7 +112,8 @@ MyTicketsScreen As screen:
             PressedColor: =MyTicketsScreenGalleryStatus.Color
             PressedFill: =MyTicketsScreenGalleryStatus.Fill
             Size: =18
-            Text: =ThisItem.TaskStatus
+            Text: |
+                ="NOVO"
             VerticalAlign: =VerticalAlign.Top
             Width: =225
             X: =373

@@ -166,7 +166,7 @@ CreateTicketScreen As screen:
         PressedColor: =CreateTicketScreenStatus.Color
         PressedFill: =CreateTicketScreenStatus.Fill
         Size: =18
-        Text: ="NÃO INICIADO"
+        Text: ="NOVO"
         Width: =196
         X: =90
         Y: =180
