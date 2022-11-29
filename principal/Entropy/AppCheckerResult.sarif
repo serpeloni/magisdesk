@@ -134,66 +134,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CreateTicketScreen.CreateTicketScreenCategoryDropDown.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CreateTicketScreen.CreateTicketScreenCategoryDropDown.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "CreateTicketScreen",
-                "type": "CreateTicketScreen.CreateTicketScreenCategoryDropDown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CreateTicketScreen.CreateTicketScreenCategoryDropDown.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "CreateTicketScreen.CreateTicketScreenCategoryDropDown.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "CreateTicketScreen",
-                "type": "CreateTicketScreen.CreateTicketScreenCategoryDropDown"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "CreateTicketScreen.CreateTicketScreenTaskDescription.AccessibleLabel"
                 }
               ],
@@ -1544,19 +1484,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.AccessibleLabel"
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditFieldCategory.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.AccessibleLabel",
+                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditFieldCategory.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown"
+                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditFieldCategory"
               }
             }
           ],
@@ -1574,19 +1514,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.FocusedBorderThickness"
+                  "fullyQualifiedName": "CreateTicketScreen.FieldCategory.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown.FocusedBorderThickness",
+                  "fullyQualifiedName": "CreateTicketScreen.FieldCategory.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "EditTicketScreen",
-                "type": "EditTicketScreen.EditTicketScreenCanvas.EditTicketScreenDataCard.EditTicketScreenCategoryDropDown"
+                "member": "AccessibleLabel",
+                "module": "CreateTicketScreen",
+                "type": "CreateTicketScreen.FieldCategory"
               }
             }
           ],
@@ -1596,8 +1536,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [

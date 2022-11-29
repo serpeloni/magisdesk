@@ -137,7 +137,7 @@ MyTicketsScreen As screen:
             Size: =18
             Text: =ThisItem.Id
             Width: =97
-            X: =192
+            X: =198
             Y: =28
             ZIndex: =5
 
@@ -156,9 +156,9 @@ MyTicketsScreen As screen:
             PressedBorderColor: =MyTicketsScreenGalleryIdText.BorderColor
             PressedColor: =MyTicketsScreenGalleryIdText.Color
             PressedFill: =MyTicketsScreenGalleryIdText.Fill
-            Size: =13.5
+            Size: =15
             Text: ="Número"
-            Width: =81
+            Width: =90
             X: =102
             Y: =30
             ZIndex: =6
@@ -183,7 +183,7 @@ MyTicketsScreen As screen:
             Text: ="PRIORIDADE"
             Width: =108
             X: =30
-            Y: =114
+            Y: =124
             ZIndex: =7
 
         MyTicketsScreenGalleryAssignedToText As label:
@@ -206,7 +206,7 @@ MyTicketsScreen As screen:
             Text: ="ANALISTA"
             Width: =109
             X: =192
-            Y: =114
+            Y: =124
             ZIndex: =8
 
         MyTicketsScreenGalleryPriority As label:
@@ -226,9 +226,9 @@ MyTicketsScreen As screen:
             PressedFill: =MyTicketsScreenGalleryPriority.Fill
             Size: =18
             Text: =ThisItem.Priority
-            X: =33
-            Y: |
-                =MyTicketsScreenGalleryPriorityText.Y+MyTicketsScreenGalleryPriorityText.Height+10
+            Width: =72
+            X: =30
+            Y: =164
             ZIndex: =9
 
         MyTicketsScreenGalleryAssignedTo As label:
@@ -250,9 +250,8 @@ MyTicketsScreen As screen:
             Text: =Upper(ThisItem.AssignedTO)
             VerticalAlign: =VerticalAlign.Top
             Width: =360
-            X: =201
-            Y: |
-                =MyTicketsScreenGalleryAssignedToText.Y+MyTicketsScreenGalleryAssignedToText.Height+10
+            X: =192
+            Y: =151
             ZIndex: =10
 
         MyTicketsScreenGalleryMask As rectangle:

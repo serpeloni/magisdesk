@@ -19,7 +19,7 @@ CreateTicketScreen As screen:
         OnSelect: |-
             =Reset(CreateTicketScreenTitleText);
                 Reset(CreateTicketScreenTaskDescription);
-                Reset(CreateTicketScreenCategoryDropDown);
+                Reset(FieldCategory);
                 Reset(FieldPriority);
                 Back()
         PressedBorderColor: =ColorFade(CreateTicketScreenBack.BorderColor, -20%)
@@ -148,7 +148,7 @@ CreateTicketScreen As screen:
         Width: =610
         X: =15
         Y: =235
-        ZIndex: =8
+        ZIndex: =7
 
     CreateTicketScreenStatus As label:
         Color: =RGBA(9, 33, 98, 1)
@@ -170,7 +170,7 @@ CreateTicketScreen As screen:
         Width: =196
         X: =90
         Y: =180
-        ZIndex: =9
+        ZIndex: =8
 
     CreateTicketScreenTitleLabel As label:
         Color: =RGBA(74, 74, 74, 1)
@@ -192,7 +192,7 @@ CreateTicketScreen As screen:
         Width: =165
         X: =17
         Y: =301
-        ZIndex: =10
+        ZIndex: =9
 
     CreateTicketScreenTitleStar As label:
         Color: =RGBA(158, 11, 15, 1)
@@ -214,7 +214,7 @@ CreateTicketScreen As screen:
         Width: =18
         X: =80
         Y: =295
-        ZIndex: =11
+        ZIndex: =10
 
     CreateTicketScreenTitleText As text:
         BorderColor: =RGBA(235, 235, 235, 1)
@@ -231,7 +231,7 @@ CreateTicketScreen As screen:
         Width: =611
         X: =14
         Y: =325
-        ZIndex: =12
+        ZIndex: =11
 
     CreateTicketScreenCategoryLabel As label:
         Color: =RGBA(74, 74, 74, 1)
@@ -253,7 +253,7 @@ CreateTicketScreen As screen:
         Width: =100
         X: =16
         Y: =407
-        ZIndex: =13
+        ZIndex: =12
 
     CreateTicketScreenCategoryDropDownStar As label:
         Color: =RGBA(158, 11, 15, 1)
@@ -275,28 +275,7 @@ CreateTicketScreen As screen:
         Width: =73
         X: =116
         Y: =402
-        ZIndex: =14
-
-    CreateTicketScreenCategoryDropDown As dropdown:
-        BorderThickness: =0
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronFill: =RGBA(74, 74, 74, 1)
-        ChevronHoverBackground: =RGBA(255, 255, 255, 1)
-        ChevronHoverFill: =RGBA(74, 74, 74, 1)
-        FocusedBorderColor: =CreateTicketScreenCategoryDropDown.BorderColor
-        FocusedBorderThickness: =0
-        Height: =60
-        HoverBorderColor: =
-        HoverFill: =RGBA(179, 179, 179, 1)
-        Items: =TaskCategories
-        PressedBorderColor: =CreateTicketScreenCategoryDropDown.HoverBorderColor
-        PressedFill: =RGBA(179, 179, 179, 1)
-        SelectionFill: =RGBA(230, 230, 230, 1)
-        Size: =18
-        Width: =611
-        X: =15
-        Y: =438
-        ZIndex: =15
+        ZIndex: =13
 
     CreateTicketScreenPriorityLabel As label:
         Color: =RGBA(74, 74, 74, 1)
@@ -318,7 +297,7 @@ CreateTicketScreen As screen:
         Width: =247
         X: =17
         Y: =528
-        ZIndex: =16
+        ZIndex: =15
 
     CreateTicketScreenDescriptionLabel As label:
         Color: =RGBA(74, 74, 74, 1)
@@ -340,7 +319,7 @@ CreateTicketScreen As screen:
         Width: =122
         X: =16
         Y: =668
-        ZIndex: =20
+        ZIndex: =16
 
     CreateTicketScreenDescriptionStar As label:
         Color: =RGBA(158, 11, 15, 1)
@@ -362,7 +341,7 @@ CreateTicketScreen As screen:
         Width: =8
         X: =116
         Y: =655
-        ZIndex: =21
+        ZIndex: =17
 
     CreateTicketScreenTaskDescription As text:
         BorderColor: =RGBA(235, 235, 235, 1)
@@ -379,7 +358,7 @@ CreateTicketScreen As screen:
         Width: =612
         X: =14
         Y: =699
-        ZIndex: =22
+        ZIndex: =18
 
     CreateTicketScreenCancel As button:
         BorderColor: =RGBA(62, 96, 170, 1)
@@ -395,7 +374,7 @@ CreateTicketScreen As screen:
         OnSelect: |-
             =Reset(CreateTicketScreenTitleText);
             Reset(CreateTicketScreenTaskDescription);
-            Reset(CreateTicketScreenCategoryDropDown);
+            Reset(FieldCategory);
             Reset(FieldPriority);
             Navigate(MyTicketsScreen,None)
         PaddingBottom: =0
@@ -414,7 +393,7 @@ CreateTicketScreen As screen:
         Width: =130
         X: =165
         Y: =954
-        ZIndex: =23
+        ZIndex: =19
 
     CreateTicketScreenCreateButton As button:
         BorderColor: =RGBA(62, 96, 170, 1)
@@ -441,10 +420,10 @@ CreateTicketScreen As screen:
                 Description:CreateTicketScreenTaskDescription.Text,
                 Editor:MyProfile.Mail,
                 Modified:Now(),
-                Category:CreateTicketScreenCategoryDropDown.SelectedText.Value  });
+                Category:FieldCategory.SelectedText.Value  });
                 Reset(CreateTicketScreenTitleText);
                 Reset(CreateTicketScreenTaskDescription);
-                Reset(CreateTicketScreenCategoryDropDown);
+                Reset(FieldCategory);
                 Reset(FieldPriority);
                 Navigate(ConfirmSubmitScreen,None)
         PaddingBottom: =0
@@ -463,7 +442,7 @@ CreateTicketScreen As screen:
         Width: =130
         X: =345
         Y: =954
-        ZIndex: =24
+        ZIndex: =20
 
     FieldPriority As dropdown:
         Height: =66
@@ -472,5 +451,15 @@ CreateTicketScreen As screen:
         Width: =611
         X: =14
         Y: =563
-        ZIndex: =26
+        ZIndex: =21
+
+    FieldCategory As dropdown:
+        Default: ="PC"
+        Height: =70
+        Items: =["PC" , "Impressora" , "Mouse" , "Teclado" , "Monitor" , "WIFI" , "Telefonia" , "Sistemas"]
+        Size: =21
+        Width: =611
+        X: =14
+        Y: =440
+        ZIndex: =22
 

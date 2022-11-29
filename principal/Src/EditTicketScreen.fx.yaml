@@ -39,28 +39,6 @@ EditTicketScreen As screen:
                 Y: =1410
                 ZIndex: =4
 
-            EditTicketScreenCategoryDropDown As dropdown:
-                BorderThickness: =0
-                ChevronBackground: =RGBA(255, 255, 255, 1)
-                ChevronFill: =RGBA(74, 74, 74, 1)
-                ChevronHoverBackground: =RGBA(255, 255, 255, 1)
-                ChevronHoverFill: =RGBA(74, 74, 74, 1)
-                Default: =SelectedTicket.Category
-                FocusedBorderColor: =EditTicketScreenCategoryDropDown.BorderColor
-                FocusedBorderThickness: =0
-                Height: =60
-                HoverBorderColor: =
-                HoverFill: =RGBA(179, 179, 179, 1)
-                Items: =TaskCategories
-                PressedBorderColor: =EditTicketScreenCategoryDropDown.HoverBorderColor
-                PressedFill: =RGBA(179, 179, 179, 1)
-                SelectionFill: =RGBA(230, 230, 230, 1)
-                Size: =18
-                Width: =592
-                X: =14
-                Y: =1186
-                ZIndex: =5
-
             EditTicketScreenHeaderGroup As group:
                 Height: =5
                 Width: =5
@@ -115,7 +93,7 @@ EditTicketScreen As screen:
                         Reset(EditTicketScreenStatusDropdown);
                         Reset(EditTicketScreenDescriptionInput);
                         Reset(EditPriorityField);
-                        Reset(EditTicketScreenCategoryDropDown);
+                        Reset(EditFieldCategory);
                         Reset(EditTicketScreenCompletedSlider);
                         Back()
                     PressedBorderColor: =ColorFade(EditTicketScreenBack.BorderColor, -20%)
@@ -792,7 +770,7 @@ EditTicketScreen As screen:
                     Reset(EditTicketScreenStatusDropdown);
                     Reset(EditTicketScreenDescriptionInput);
                     Reset(EditPriorityField);
-                    Reset(EditTicketScreenCategoryDropDown);
+                    Reset(EditFieldCategory);
                     Reset(EditTicketScreenCompletedSlider);
                     Navigate(MyTicketsScreen,None)
                 PaddingBottom: =0
@@ -835,7 +813,7 @@ EditTicketScreen As screen:
                         Patch(TicketList,LookUp(TicketList,Id=SelectedTicket.Id),{
                         
                         Priority:EditPriorityField.SelectedText.Value,
-                        Category:EditTicketScreenCategoryDropDown.SelectedText.Value,
+                        Category:EditFieldCategory.SelectedText.Value,
                         TaskStatus:EditTicketScreenStatusDropdown.SelectedText.Value,  
                         PercentComplete:EditTicketScreenCompletedSlider.Value/100,
                         AssignedTO:AssignedToUserDisplayName,
@@ -846,7 +824,7 @@ EditTicketScreen As screen:
                     
                        Patch(TicketList,LookUp(TicketList,Id = SelectedTicket.Id),{
                         Priority:EditPriorityField.SelectedText.Value,
-                        Category:EditTicketScreenCategoryDropDown.SelectedText.Value,
+                        Category:EditFieldCategory.SelectedText.Value,
                         Editor:MyProfile.Mail,
                         Modified:Now(),
                         Description:EditTicketScreenDescriptionInput.Text
@@ -965,4 +943,15 @@ EditTicketScreen As screen:
                 X: =14
                 Y: =1300
                 ZIndex: =38
+
+            EditFieldCategory As dropdown:
+                Default: ="PC"
+                Height: =70
+                Items: |
+                    =["PC" , "Impressora" , "Mouse" , "Teclado" , "Monitor" , "WIFI" , "Telefonia" , "Sistemas"]
+                Size: =21
+                Width: =592
+                X: =14
+                Y: =1186
+                ZIndex: =39
 
