@@ -20,7 +20,7 @@ CreateTicketScreen As screen:
             =Reset(CreateTicketScreenTitleText);
                 Reset(CreateTicketScreenTaskDescription);
                 Reset(CreateTicketScreenCategoryDropDown);
-                Reset(CreateTicketScreenPriorityDropDown);
+                Reset(FieldPriority);
                 Back()
         PressedBorderColor: =ColorFade(CreateTicketScreenBack.BorderColor, -20%)
         PressedColor: =ColorFade(CreateTicketScreenBack.Color, -20%)
@@ -396,7 +396,7 @@ CreateTicketScreen As screen:
             =Reset(CreateTicketScreenTitleText);
             Reset(CreateTicketScreenTaskDescription);
             Reset(CreateTicketScreenCategoryDropDown);
-            Reset(CreateTicketScreenPriorityDropDown);
+            Reset(FieldPriority);
             Navigate(MyTicketsScreen,None)
         PaddingBottom: =0
         PaddingLeft: =0
@@ -432,7 +432,7 @@ CreateTicketScreen As screen:
             =Set(NumberOfTickets,NumberOfTickets + 1);
             Patch(TicketList,Defaults(TicketList),{Id:NumberOfTickets,
                 Title:CreateTicketScreenTitleText.Text,
-                Priority: CreateTicketScreenPriorityDropDown.SelectedText.Value,
+                Priority:FieldPriority.SelectedText.Value,
                 Author:MyProfile.Mail,
                 TaskStatus:"NÃO INICIADO",
                 PercentComplete: "0",
@@ -445,7 +445,7 @@ CreateTicketScreen As screen:
                 Reset(CreateTicketScreenTitleText);
                 Reset(CreateTicketScreenTaskDescription);
                 Reset(CreateTicketScreenCategoryDropDown);
-                Reset(CreateTicketScreenPriorityDropDown);
+                Reset(FieldPriority);
                 Navigate(ConfirmSubmitScreen,None)
         PaddingBottom: =0
         PaddingLeft: =0
@@ -465,24 +465,12 @@ CreateTicketScreen As screen:
         Y: =954
         ZIndex: =24
 
-    CreateTicketScreenPriorityDropDown As dropdown:
-        BorderThickness: =0
-        ChevronBackground: =RGBA(255, 255, 255, 1)
-        ChevronFill: =RGBA(74, 74, 74, 1)
-        ChevronHoverBackground: =RGBA(255, 255, 255, 1)
-        ChevronHoverFill: =RGBA(74, 74, 74, 1)
-        FocusedBorderColor: =CreateTicketScreenPriorityDropDown.BorderColor
-        FocusedBorderThickness: =0
-        Height: =60
-        HoverBorderColor: =
-        HoverFill: =RGBA(179, 179, 179, 1)
-        Items: =TaskPriority
-        PressedBorderColor: =CreateTicketScreenPriorityDropDown.HoverBorderColor
-        PressedFill: =RGBA(179, 179, 179, 1)
-        SelectionFill: =RGBA(230, 230, 230, 1)
-        Size: =18
+    FieldPriority As dropdown:
+        Height: =66
+        Items: =["Alta", "Normal", "Baixa"]
+        Size: =21
         Width: =611
-        X: =15
-        Y: =568
-        ZIndex: =25
+        X: =14
+        Y: =563
+        ZIndex: =26
 
