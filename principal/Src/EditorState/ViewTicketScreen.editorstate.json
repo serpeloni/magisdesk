@@ -4908,7 +4908,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ViewTicketScreenCreated",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5821,7 +5821,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ViewTicketScreenCreatedLabel",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8203,7 +8203,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ViewTicketScreenModified",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8519,7 +8519,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ViewTicketScreenModifiedBy",
-      "ParentIndex": 15,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8821,7 +8821,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ViewTicketScreenModifiedByLabel",
-      "ParentIndex": 16,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9123,7 +9123,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "ViewTicketScreenModifiedLabel",
-      "ParentIndex": 14,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

@@ -368,11 +368,11 @@ ViewTicketScreen As screen:
                 PressedBorderColor: =ViewTicketScreenCreated.BorderColor
                 PressedColor: =ViewTicketScreenCreated.Color
                 PressedFill: =ViewTicketScreenCreated.Fill
-                Size: =18
+                Size: =14
                 Text: =Text(SelectedTicket.Created,ShortDate)
                 Width: =320
-                X: =140
-                Y: =307
+                X: =124
+                Y: =312
                 ZIndex: =16
 
             ViewTicketScreenCreatedBy As label:
@@ -390,11 +390,11 @@ ViewTicketScreen As screen:
                 PressedBorderColor: =ViewTicketScreenCreatedBy.BorderColor
                 PressedColor: =ViewTicketScreenCreatedBy.Color
                 PressedFill: =ViewTicketScreenCreatedBy.Fill
-                Size: =18
+                Size: =14
                 Text: |-
                     =Coalesce(First(Office365Users.SearchUser({searchTerm:Text(SelectedTicket.Author)})).DisplayName, SelectedTicket.Author)
                 Width: =427
-                X: =159
+                X: =168
                 Y: =327
                 ZIndex: =17
 
@@ -413,11 +413,11 @@ ViewTicketScreen As screen:
                 PressedBorderColor: =ViewTicketScreenModified.BorderColor
                 PressedColor: =ViewTicketScreenModified.Color
                 PressedFill: =ViewTicketScreenModified.Fill
-                Size: =18
+                Size: =14
                 Text: =Text(SelectedTicket.Modified,ShortDate)
                 Width: =320
-                X: =174
-                Y: =366
+                X: =170
+                Y: =371
                 ZIndex: =18
 
             ViewTicketScreenModifiedBy As label:
@@ -435,13 +435,13 @@ ViewTicketScreen As screen:
                 PressedBorderColor: =ViewTicketScreenModifiedBy.BorderColor
                 PressedColor: =ViewTicketScreenModifiedBy.Color
                 PressedFill: =ViewTicketScreenModifiedBy.Fill
-                Size: =18
+                Size: =14
                 Text: |-
                     =Coalesce(First(Office365Users.SearchUser({searchTerm:Text(SelectedTicket.Editor)})).DisplayName, SelectedTicket.Editor)
                 VerticalAlign: =VerticalAlign.Top
                 Width: =390
-                X: =217
-                Y: =390
+                X: =205
+                Y: =396
                 ZIndex: =19
 
             ViewTicketScreenPriorityBackground As rectangle:
